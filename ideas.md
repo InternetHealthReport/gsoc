@@ -90,6 +90,17 @@ If appropriate, screenshot or another image
 
 **Mentor: (your name and email address for contact)**
 
+### Develop reusable building blocks for visual exploration of Internet data (BGP, RIPE Atlas)
+If appropriate, screenshot or another image
+
+**Brief explanation:* XXX *
+
+**Expected results: XXX **
+
+**Knowledge Prerequisite: Javascript, d3, ObservableHQ knowledge required **
+
+**Mentor: Emile Aben (emile.aben@ripe.net) **
+
 
 ## Proposal template
 ### Project
