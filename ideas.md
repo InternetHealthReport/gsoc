@@ -20,87 +20,129 @@ If there is no specific contact given you can ask questions at ihr-admin@iij-ii.
 
 ## List of ideas
 
-### User accounts and notifications
+### Visualization widgets for M-Lab data
 
-**Brief explanation:** Implement user registration process and alerting mechanisms
-
-**Expected results:**
-
-**Knowledge Prerequisite:**
-
-**Mentor: (your name and email address for contact)**
-
-### Adding Google/cloudflare traffic data + outage detection
-If appropriate, screenshot or another image
-
-**Brief explanation:**
+**Brief explanation:** IHR website provides plots of Internet latency and routing
+(network dependency) for networks (AS) and countries. The goal of the project
+is to add new plots showing speed test data collected by the Measurement-Lab (M-Lab),
+so that users can monitor how disconnections and routing events impact throughput.
+M-Lab provides an API (https://github.com/m-lab/stats-pipeline) to get aggregations
+of their data.
 
 **Expected results:**
+- Map M-Lab's aggregations to IHR's ASN and countries 
+- Create a VueJS component for each M-Lab metric (e.g. Throughtput, packet loss)
+- Integration with IHR website
 
-**Knowledge Prerequisite:**
+**Knowledge Prerequisite:** Javascript, VueJS, plotly.js
 
-**Mentor: (your name and email address for contact)**
+**Mentor:** Romain Fontugne (romain@iij.ad.jp)
 
+-----------------------------------
+### Integration of transparency reports
 
+**Brief explanation:** Certain services such as Google and Cloudflare disclose
+traffic levels per countries (see https://transparencyreport.google.com/traffic/
+and https://radar.cloudflare.com/ ). The goal of this project is to import this
+data in IHR, so that user can estimate the impact of events observed on IHR to
+traffic changes to popular Internet services.
+
+**Expected results:**
+- Survey of transparency reports
+- Implementation of a visualization widget for multiple datasets
+- Implementation of a simple anomaly detector to highlight important changes
+- Integration to IHR country reports
+
+**Knowledge Prerequisite:** Javascript, python, VueJS 
+
+**Mentor:** Romain Fontugne (romain@iij.ad.jp)
+
+-----------------------------------
 ### Network dependency visualization
 If appropriate, screenshot or another image
 
-**Brief explanation:** IHR monitors the inter-dependence of networks (i.e. a 
-university network usually relies on a national academic ISP) and display these
-dependencies with very simple line charts. 
+**Brief explanation:** IHR monitors the inter-dependence of networks (e.g. the 
+university of Tokyo relies on Japan national academic ISP) and displays these
+dependencies with very simple line charts that highlights changes over time.
+Representing this data as a graph is more intuitive for network operators. 
+Each node is an AS and dependencies are links. This graph can also be annotated
+with other metrics reported by IHR, for example, latency.
 
 **Expected results:**
+- Create a VueJS component that show the dependency graph
+- Add mechanisms to display changes over time
+- Annotate the graph with other metrics and external datasets
 
 **Knowledge Prerequisite:** Javascript, VueJS, and visualization library (i.e. Plotly or D3.js)
 
-**Mentor: (your name and email address for contact)**
+**Mentor:** Romain Fontugne (romain@iij.ad.jp)
 
 
-### Correlated alarms
-If appropriate, screenshot or another image
+-----------------------------------
+### Alarms correlation and aggregated reports
 
-**Brief explanation:** Detect group of topologically related alarms that happen at the same time.
-
-**Expected results:**
-
-**Knowledge Prerequisite:** Javascript, VueJS, and visualization library (i.e. Plotly or D3.js)
-
-**Mentor: (your name and email address for contact)**
-
-
-### Hegemony / business type
-If appropriate, screenshot or another image
-
-**Brief explanation:**
+**Brief explanation:** IHR implements simple anomaly detectors to identify changes 
+in monitored metrics. This results in a lot of alarms displayed as tables in IHR
+global reports. The most important events usually generates numerous alarms
+across multiple datasets. The goal of this project is to group topologically or 
+geographically related alarms that happen at the same time and provide 
+multi-dimensional reports.
 
 **Expected results:**
+- This can be either implemented as an online or offline tool
+- For an online implementation we expect:
+    - A JS module to analyze and aggregate alarms
+    - A VueJS component to display aggregated alarms
+    - Integration with IHR's global report
+- For an offline implementation we expect:
+    - More comprehensive anlysis of IHR alarms with the possibility to add alarms 
+    from other tools (e.g. BGPAlerter)
+    - Allow user to provide feedback about the importance of reported alarms
+    - Simple machine learning to personnalized this alerting system
 
-**Knowledge Prerequisite:**
+**Knowledge Prerequisite:** Javascript/Python, visualization library, networking basics 
 
-**Mentor: (your name and email address for contact)**
+**Mentor:** Emile Aben (emile.aben@ripe.net), Romain Fontugne (romain@iij.ad.jp)
 
-### Adding Google/cloudflare traffic data + outage detection
-If appropriate, screenshot or another image
 
-**Brief explanation:**
+-----------------------------------
+###  Reusable visualizations for Internet open datasets 
+
+**Brief explanation:** Develop reusable building blocks for visual exploration 
+of Internet data. The goal of this project is to provide open source code 
+to browse open data sets (e.g. IHR, RIS/Routeviews and RIPE Atlas) that  
+researchers and network operators could easily adapt when investigating events
+or sharing results.
+
+**Expected results: **
+- Development of basic libraries to handle Internet data (BGP, traceroutes) in Observable
+- Simple examples with open data sets
+- Documentation
+
+**Knowledge Prerequisite:** Javascript, d3, ObservableHQ 
+
+**Mentor: ** Emile Aben (emile.aben@ripe.net) 
+
+
+-----------------------------------
+### User management and notifications
+
+**Brief explanation:** IHR database already have tables to manage users, but 
+the website lacks a proper user management system. The users should be able to
+input a list of networks and country they are interested in so that IHR can send
+them by email personalized alerts when disruptions or important routing changes
+happen.
 
 **Expected results:**
+- Implement user registration process (front and backend)
+- A view on IHR website for letting a user select resources and a level of verbosity
+- Backend email alerting system
 
-**Knowledge Prerequisite:**
+**Knowledge Prerequisite:** python, django, javascript, VueJS
 
-**Mentor: (your name and email address for contact)**
+**Mentor:** Romain Fontugne (romain@iij.ad.jp)
 
-### Develop reusable building blocks for visual exploration of Internet data (BGP, RIPE Atlas)
-If appropriate, screenshot or another image
-
-**Brief explanation:* XXX *
-
-**Expected results: XXX **
-
-**Knowledge Prerequisite: Javascript, d3, ObservableHQ knowledge required **
-
-**Mentor: Emile Aben (emile.aben@ripe.net) **
-
+-----------------------------------
 
 ## Proposal template
 ### Project
