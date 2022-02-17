@@ -36,7 +36,7 @@ of their data.
 
 **Knowledge Prerequisite:** Javascript, VueJS, plotly.js
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
+**Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
 
 -----------------------------------
 ### Integration of transparency reports
@@ -55,7 +55,7 @@ traffic changes to popular Internet services.
 
 **Knowledge Prerequisite:** Javascript, python, VueJS 
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
+**Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
 
 -----------------------------------
 ### Network dependency visualization
