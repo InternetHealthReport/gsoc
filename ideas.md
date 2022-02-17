@@ -36,7 +36,7 @@ of their data.
 
 **Knowledge Prerequisite:** Javascript, VueJS, plotly.js
 
-**Mentor:** Romain Fontugne (romain@iij.ad.jp)
+**Contact:** Romain Fontugne (romain@iij.ad.jp)
 
 -----------------------------------
 ### Integration of transparency reports
@@ -55,7 +55,7 @@ traffic changes to popular Internet services.
 
 **Knowledge Prerequisite:** Javascript, python, VueJS 
 
-**Mentor:** Romain Fontugne (romain@iij.ad.jp)
+**Contact:** Romain Fontugne (romain@iij.ad.jp)
 
 -----------------------------------
 ### Network dependency visualization
@@ -75,7 +75,7 @@ with other metrics reported by IHR, for example, latency.
 
 **Knowledge Prerequisite:** Javascript, VueJS, and visualization library (i.e. Plotly or D3.js)
 
-**Mentor:** Romain Fontugne (romain@iij.ad.jp)
+**Contact:** Romain Fontugne (romain@iij.ad.jp)
 
 
 -----------------------------------
@@ -102,7 +102,7 @@ multi-dimensional reports.
 
 **Knowledge Prerequisite:** Javascript/Python, visualization library, networking basics 
 
-**Mentor:** Emile Aben (emile.aben@ripe.net), Romain Fontugne (romain@iij.ad.jp)
+**Contact:** Emile Aben (emile.aben@ripe.net), Romain Fontugne (romain@iij.ad.jp)
 
 
 -----------------------------------
@@ -121,7 +121,7 @@ or sharing results.
 
 **Knowledge Prerequisite:** Javascript, d3, ObservableHQ 
 
-**Mentor: ** Emile Aben (emile.aben@ripe.net) 
+**Contact:** Emile Aben (emile.aben@ripe.net) 
 
 
 -----------------------------------
@@ -140,7 +140,7 @@ happen.
 
 **Knowledge Prerequisite:** python, django, javascript, VueJS
 
-**Mentor:** Romain Fontugne (romain@iij.ad.jp)
+**Contact:** Romain Fontugne (romain@iij.ad.jp)
 
 -----------------------------------
 
@@ -154,6 +154,6 @@ If appropriate, screenshot or another image
 
 **Knowledge Prerequisite:**
 
-**Mentor: (your name and email address for contact)**
+**Contact:**  (your name and email address for contact)
 
 *Content based on [https://community.kde.org/GSoC](https://community.kde.org/GSoC) and available under [Creative Commons License SA 4.0](https://community.kde.org/KDE_Community_Wiki:Copyrights)*
