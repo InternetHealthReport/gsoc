@@ -169,6 +169,27 @@ happen.
 **Contact:** Romain Fontugne (romain@iij.ad.jp)
 
 -----------------------------------
+### Integration of Internet Yellow Pages data
+
+**Brief explanation:** The Internet Yellow Pages (http://iyp.iijlab.net) is an IHR
+project that aims to maintaining a knowledge graph for network resources. The goal
+of this GSoC project is to import and display IYP data for networks, IP prefixes, and 
+countries monitored by IHR.
+
+**Expected results:**
+- Generic SPARQL queries for extracting relevant information about a network resources
+- Widgets on IHR website for displaying data related to a selected resource
+- (optional) Simple interface to browse IYP knowlege graph
+
+**Knowledge Prerequisite:** javascript, VueJS, SPARQL
+
+**Project size:** 175 hours
+
+**Difficulty:** Easy
+
+**Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
+
+-----------------------------------
 
 ## Proposal template
 ### Project
