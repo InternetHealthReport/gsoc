@@ -33,8 +33,13 @@ of their data.
 - Map M-Lab's aggregations to IHR's ASN and countries 
 - Create a VueJS component for each M-Lab metric (e.g. Throughtput, packet loss)
 - Integration with IHR website
+- (optional) Experienced contributor could add searching/comparing features
 
 **Knowledge Prerequisite:** Javascript, VueJS, plotly.js
+
+**Project size:** 175 hours
+
+**Difficulty:** Easy/Medium
 
 **Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
 
@@ -52,8 +57,13 @@ traffic changes to popular Internet services.
 - Implementation of a visualization widget for multiple datasets
 - Implementation of a simple anomaly detector to highlight important changes
 - Integration to IHR country reports
+- (optional) Implementation of a backend anomaly detector to complement IHR alerting system
 
 **Knowledge Prerequisite:** Javascript, python, VueJS 
+
+**Project size:** 175 hours or 350 hours
+
+**Difficulty:** Medium
 
 **Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
 
@@ -74,6 +84,10 @@ with other metrics reported by IHR, for example, latency.
 - Annotate the graph with other metrics and external datasets
 
 **Knowledge Prerequisite:** Javascript, VueJS, and visualization library (i.e. Plotly or D3.js)
+
+**Project size:** 175 hours or 350 hours
+
+**Difficulty:** Medium
 
 **Contact:** Romain Fontugne (romain@iij.ad.jp)
 
@@ -102,6 +116,10 @@ multi-dimensional reports.
 
 **Knowledge Prerequisite:** Javascript/Python, visualization library, networking basics 
 
+**Project size:** 350 hours
+
+**Difficulty:** Medium / Hard
+
 **Contact:** Emile Aben (emile.aben@ripe.net), Romain Fontugne (romain@iij.ad.jp)
 
 
@@ -114,12 +132,16 @@ to browse open data sets (e.g. IHR, RIS/Routeviews and RIPE Atlas) that
 researchers and network operators could easily adapt when investigating events
 or sharing results.
 
-**Expected results: **
+**Expected results:**
 - Development of basic libraries to handle Internet data (BGP, traceroutes) in Observable
 - Simple examples with open data sets
 - Documentation
 
 **Knowledge Prerequisite:** Javascript, d3, ObservableHQ 
+
+**Project size:** 175 hours or 350 hours
+
+**Difficulty:** Medium
 
 **Contact:** Emile Aben (emile.aben@ripe.net) 
 
@@ -139,6 +161,10 @@ happen.
 - Backend email alerting system
 
 **Knowledge Prerequisite:** python, django, javascript, VueJS
+
+**Project size:** 175 hours
+
+**Difficulty:** Easy/Medium
 
 **Contact:** Romain Fontugne (romain@iij.ad.jp)
 
