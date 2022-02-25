@@ -24,7 +24,7 @@ If there is no specific contact given you can ask questions at ihr-admin@iij-ii.
 
 **Brief explanation:** IHR website provides plots of Internet latency and routing
 (network dependency) for networks (AS) and countries. The goal of the project
-is to add new plots showing speed test data collected by the Measurement-Lab (M-Lab),
+is to add new plots showing speed test data collected by the Measurement-Lab (M-Lab: https://www.measurementlab.net/),
 so that users can monitor how disconnections and routing events impact throughput.
 M-Lab provides an API (https://github.com/m-lab/stats-pipeline) to get aggregations
 of their data.
