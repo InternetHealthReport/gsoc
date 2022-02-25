@@ -129,12 +129,13 @@ multi-dimensional reports.
 **Brief explanation:** Develop reusable building blocks for visual exploration 
 of Internet data. The goal of this project is to provide open source code 
 to browse open data sets (e.g. IHR, RIS/Routeviews and RIPE Atlas) that  
-researchers and network operators could easily adapt when investigating events
-or sharing results.
+researchers and network operators could easily adapt when investigating outages
+or documenting networking events.
 
 **Expected results:**
 - Development of basic libraries to handle Internet data (BGP, traceroutes) in Observable
-- Simple examples with open data sets
+- Examples for monitoring popular open data sets such as RIPE Atlas, M-Lab
+- Examples for a few selected past events (e.g. network outage, route leak, BGP hijack)
 - Documentation
 
 **Knowledge Prerequisite:** Javascript, d3, ObservableHQ 
