@@ -128,7 +128,7 @@ multi-dimensional reports.
 
 **Brief explanation:** Develop reusable building blocks for visual exploration 
 of Internet data. The goal of this project is to provide open source code 
-to browse open data sets (e.g. IHR, RIS/Routeviews and RIPE Atlas) that  
+to browse open data sets (e.g. IHR, RIS/Routeviews and RIPE Atlas) that
 researchers and network operators could easily adapt when investigating outages
 or documenting networking events.
 
@@ -188,6 +188,27 @@ countries monitored by IHR.
 **Project size:** 175 hours (350 hours if planning to add the browsing interface)
 
 **Difficulty:** Easy/Medium
+
+**Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
+
+-----------------------------------
+### Lightweight NDT speed test
+
+**Brief explanation:** NDT (Network Diagnostic Tool) measurement tool that reports upload
+and download speeds and latency metrics. This is one of the main tool used by the Measurement
+Lab. The goal of this project is to improve NDT7 (https://github.com/m-lab/ndt7-js/)
+to perform lightweight speed test using, for example, the technique proposed in https://www.usenix.org/system/files/nsdi21-yang-xinlei.pdf. 
+
+**Expected results:**
+- Make NDT more practical to measure high-speed links
+- Tests more efficient for large infrastructures and devices with limited resources
+- Measure time/bandwidth saving using lightweight tests for MLab
+
+**Knowledge Prerequisite:** javascript
+
+**Project size:** 350 hours
+
+**Difficulty:** Medium/Hard
 
 **Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
 
