@@ -213,6 +213,27 @@ to perform lightweight speed test using, for example, the technique proposed in 
 **Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
 
 -----------------------------------
+### Port link monitoring code to python3 and Kafka
+
+**Brief explanation:** We have stopped our link monitoring code (https://github.com/InternetHealthReport/tartiflette)
+because this code need to be updated to our current backend. That means porting the code
+to python3 and fetching traceroute data from Kafka. This code is based on this research
+paper: https://www.iij-ii.co.jp/en/members/romain/pdf/romain_imc2017.pdf
+
+**Expected results:**
+- Code ported to python3
+- Data fetching from Kafka
+- Unit tests / Documentation
+
+**Knowledge Prerequisite:** python, Kafka
+
+**Project size:** 175 hours
+
+**Difficulty:** Medium
+
+**Contact:** Romain Fontugne (romain@iij.ad.jp)
+
+-----------------------------------
 
 ## Proposal template
 ### Project
