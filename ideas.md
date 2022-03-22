@@ -233,6 +233,35 @@ paper: https://www.iij-ii.co.jp/en/members/romain/pdf/romain_imc2017.pdf
 **Contact:** Romain Fontugne (romain@iij.ad.jp)
 
 -----------------------------------
+### IHR exploratory dashboard
+
+**Brief explanation:** To show the impact of events on Internet performances we usually 
+have to monitor multiple metrics at different periods of time. For example, to measure
+the impact of national lockdowns during the outbreak of COVID19 we designed this dashboard:
+https://ihr.iijlab.net/ihr/en-us/covid19?country=France
+The goal of this project is to create a more flexible dashboard that allow a user to explore
+IHR dataset and monitor any event. For this the implemented dashboard would let the user 
+select a set of source and destination networks (or cities), time periods, and a metric (e.g. RTT).
+Then it would plot the corresponding data. Depending on the contributor's ability a lot of
+features can be added to this dashboard. For example, an assistant to select a set of 
+important networks from a selected country, or global statistics about plotted data.
+
+**Expected results:**
+- Flexible user input form
+- Plots based on user's input
+- Permanent links for sharing plots on social media
+- (optional) Networks selection assistant
+- (optional) Add statistics about plotted data
+
+**Knowledge Prerequisite:** javascript, VueJS
+
+**Project size:** 175 hours for the basic implementation (350 hours for full-featured dashboard)
+
+**Difficulty:** Medium
+
+**Contact:** Romain Fontugne (romain@iij.ad.jp)
+
+-----------------------------------
 
 ## Proposal template
 ### Project
