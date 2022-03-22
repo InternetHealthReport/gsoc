@@ -48,14 +48,13 @@ of their data.
 
 **Brief explanation:** Certain services such as Google and Cloudflare disclose
 traffic levels per countries (see https://transparencyreport.google.com/traffic/
-and https://radar.cloudflare.com/ ). The goal of this project is to import this
-data in IHR, so that user can estimate the impact of events observed on IHR to
+and https://radar.cloudflare.com/ ). The goal of this project is to show this
+data on IHR, so that user can estimate the impact of events observed on IHR to
 traffic changes to popular Internet services.
 
 **Expected results:**
 - Survey of transparency reports
 - Implementation of a visualization widget for multiple datasets
-- Implementation of a simple anomaly detector to highlight important changes
 - Integration to IHR country reports
 - (optional) Implementation of a backend anomaly detector to complement IHR alerting system
 
