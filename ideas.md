@@ -37,6 +37,12 @@ of their data.
 
 **Knowledge Prerequisite:** Javascript, VueJS, plotly.js
 
+**Resources:**
+- https://github.com/InternetHealthReport/ihr-website
+- https://github.com/m-lab/stats-pipeline
+- https://speed.measurementlab.net
+- https://www.measurementlab.net/
+
 **Project size:** 175 hours
 
 **Difficulty:** Easy/Medium
@@ -59,6 +65,11 @@ traffic changes to popular Internet services.
 - (optional) Implementation of a backend anomaly detector to complement IHR alerting system
 
 **Knowledge Prerequisite:** Javascript, python, VueJS 
+
+**Resources:**
+- https://github.com/InternetHealthReport/ihr-website
+- https://transparencyreport.google.com/traffic/
+- https://radar.cloudflare.com/ 
 
 **Project size:** 175 hours or 350 hours
 
@@ -83,6 +94,10 @@ with other metrics reported by IHR, for example, latency.
 - Annotate the graph with other metrics and external datasets
 
 **Knowledge Prerequisite:** Javascript, VueJS, and visualization library (i.e. Plotly or D3.js)
+
+**Resources:**
+- https://github.com/InternetHealthReport/ihr-website
+- https://www.iij-ii.co.jp/en/members/romain/pdf/romain_pam2018.pdf
 
 **Project size:** 175 hours or 350 hours
 
@@ -115,6 +130,10 @@ multi-dimensional reports.
 
 **Knowledge Prerequisite:** Javascript/Python, visualization library, networking basics 
 
+**Resources:**
+- https://github.com/InternetHealthReport/ihr-website
+- https://ihr.iijlab.net/ihr/en-us/global_report
+
 **Project size:** 350 hours
 
 **Difficulty:** Medium / Hard
@@ -139,6 +158,13 @@ or documenting networking events.
 
 **Knowledge Prerequisite:** Javascript, d3, ObservableHQ 
 
+**Resources:**
+- https://observablehq.com/@emileaben/
+- https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris
+- https://atlas.ripe.net/
+- http://www.routeviews.org/routeviews/
+- https://www.measurementlab.net/
+
 **Project size:** 175 hours or 350 hours
 
 **Difficulty:** Medium
@@ -162,6 +188,10 @@ happen.
 
 **Knowledge Prerequisite:** python, django, javascript, VueJS
 
+**Resources:**
+- https://github.com/InternetHealthReport/ihr-website
+- https://github.com/InternetHealthReport/ihr-django
+
 **Project size:** 175 hours
 
 **Difficulty:** Easy/Medium
@@ -184,6 +214,11 @@ countries monitored by IHR.
 
 **Knowledge Prerequisite:** javascript, VueJS, SPARQL
 
+**Resources:**
+- https://github.com/InternetHealthReport/ihr-website
+- http://iyp.iijlab.net/wiki/Main_Page
+- https://www.mediawiki.org/wiki/Wikibase
+
 **Project size:** 175 hours (350 hours if planning to add the browsing interface)
 
 **Difficulty:** Easy/Medium
@@ -205,6 +240,11 @@ to perform lightweight speed test using, for example, the technique proposed in 
 
 **Knowledge Prerequisite:** javascript
 
+**Resources:**
+- https://www.measurementlab.net/
+- https://github.com/m-lab/ndt7-js/
+- https://www.usenix.org/system/files/nsdi21-yang-xinlei.pdf
+
 **Project size:** 350 hours
 
 **Difficulty:** Medium/Hard
@@ -225,6 +265,10 @@ paper: https://www.iij-ii.co.jp/en/members/romain/pdf/romain_imc2017.pdf
 - Unit tests / Documentation
 
 **Knowledge Prerequisite:** python, Kafka
+
+**Resources:**
+- https://github.com/InternetHealthReport/tartiflette
+- https://www.iij-ii.co.jp/en/members/romain/pdf/romain_imc2017.pdf
 
 **Project size:** 175 hours
 
@@ -255,6 +299,10 @@ important networks from a selected country, or global statistics about plotted d
 
 **Knowledge Prerequisite:** javascript, VueJS
 
+**Resources:**
+- https://github.com/InternetHealthReport/ihr-website
+- https://ihr.iijlab.net/ihr/en-us/covid19
+
 **Project size:** 175 hours for the basic implementation (350 hours for full-featured dashboard)
 
 **Difficulty:** Medium
@@ -272,6 +320,9 @@ If appropriate, screenshot or another image
 **Expected results:**
 
 **Knowledge Prerequisite:**
+
+**Resources:**
+- https://github.com/InternetHealthReport/
 
 **Contact:**  (your name and email address for contact)
 
