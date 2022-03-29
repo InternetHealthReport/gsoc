@@ -87,6 +87,9 @@ dependencies with very simple line charts that highlights changes over time.
 Representing this data as a graph is more intuitive for network operators. 
 Each node is an AS and dependencies are links. This graph can also be annotated
 with other metrics reported by IHR, for example, latency.
+Related to this project, we have an offline tool that shows network dependencies 
+for a country, this is also something we'd like to implement on IHR website
+(https://github.com/InternetHealthReport/country-as-hegemony-viz).
 
 **Expected results:**
 - Create a VueJS component that show the dependency graph
@@ -98,6 +101,7 @@ with other metrics reported by IHR, for example, latency.
 **Resources:**
 - https://github.com/InternetHealthReport/ihr-website
 - https://www.iij-ii.co.jp/en/members/romain/pdf/romain_pam2018.pdf
+- https://github.com/InternetHealthReport/country-as-hegemony-viz
 
 **Project size:** 175 hours or 350 hours
 
