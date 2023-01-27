@@ -16,7 +16,7 @@ Do you have an awesome idea you want to work on with IHR but that is not among t
 That's cool. We love that! 
 But please get in touch with a mentor early on and make sure your project is realistic and within the scope of IHR.
 
-If there is no specific contact given you can ask questions at ihr-admin@iij-ii.co.jp.
+If there is no specific contact given you can ask questions at admin@ihr.live.
 
 ## List of ideas
 
