@@ -116,16 +116,20 @@ multi-dimensional reports.
 -----------------------------------
 ### User management and notifications (continuation of GSoC'22)
 
-**Brief explanation:** IHR database already have tables to manage users, but 
-the website lacks a proper user management system. The users should be able to
+**Brief explanation:** As part of GSoC'22, a basic user management has been
+implemented in IHR front and backend. The users should be able to
 input a list of networks and country they are interested in so that IHR can send
-them by email personalized alerts when disruptions or important routing changes
-happen.
+them personalized alerts when disruptions or important routing changes
+happen. This code requires some more polishing/testing to be deployed on the IHR website. 
+It also lacks a way to send notification to the users. We'd like to give different 
+options to communicate with the users (email, slack, discord, etc...).
 
 **Expected results:**
-- Implement user registration process (front and backend)
-- A view on IHR website for letting a user select resources and a level of verbosity
-- Backend email alerting system
+- Testing/improving existing code
+    - https://github.com/InternetHealthReport/ihr-website/tree/user-mngt
+    - https://github.com/InternetHealthReport/ihr-django
+- Add ways to choose a communication channel (email, slack, etc...)
+- Send notification (email, slack, etc...)
 
 **Knowledge Prerequisite:** python, django, javascript, VueJS
 
