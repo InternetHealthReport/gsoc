@@ -8,7 +8,7 @@ You don't have to be a proven developer -- in fact, this whole program is meant 
 Source communities. However, experience in coding and/or experience with networking data analysis is welcome. 
 
 You should prepare your working environment and start learning the components or datasets that you plan on working on before the 
-start date. Feel free to ask questions via github issues, at ihr-admin@iij-ii.co.jp, or [on slack](https://join.slack.com/t/internethealthreport/shared_invite/zt-15oqq0cwm-J5dbrY_qzgZ9sMIMTPqMWw). The timeline from Google reserves a lot 
+start date. Feel free to ask questions via github issues, at admin@ihr.live, or [on slack](https://join.slack.com/t/internethealthreport/shared_invite/zt-15oqq0cwm-J5dbrY_qzgZ9sMIMTPqMWw). The timeline from Google reserves a lot 
 of time for bonding periods; use that time wisely. Good communication is key. You should plan to communicate with your mentor 
 frequently, and formally report progress and plans weekly.
 
