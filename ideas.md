@@ -20,47 +20,16 @@ If there is no specific contact given you can ask questions at admin@ihr.live.
 
 ## List of ideas
 
-### Visualization widgets for M-Lab data
+### Integration of Google transparency reports
 
-**Brief explanation:** IHR website provides plots of Internet latency and routing
-(network dependency) for networks (AS) and countries. The goal of the project
-is to add new plots showing speed test data collected by the Measurement-Lab (M-Lab: https://www.measurementlab.net/),
-so that users can monitor how disconnections and routing events impact throughput.
-M-Lab provides an API (https://github.com/m-lab/stats-pipeline) to get aggregations
-of their data.
+**Brief explanation:** Google discloses traffic levels per countries 
+(see https://transparencyreport.google.com/traffic/). 
+The goal of this project is to show this data on IHR, so that user can estimate 
+the impact of events observed on IHR to traffic changes to popular Internet services.
 
 **Expected results:**
-- Map M-Lab's aggregations to IHR's ASN and countries 
-- Create a VueJS component for each M-Lab metric (e.g. Throughtput, packet loss)
-- Integration with IHR website
-- (optional) Experienced contributor could add searching/comparing features
-
-**Knowledge Prerequisite:** Javascript, VueJS, plotly.js
-
-**Resources:**
-- https://github.com/InternetHealthReport/ihr-website
-- https://github.com/m-lab/stats-pipeline
-- https://speed.measurementlab.net
-- https://www.measurementlab.net/
-
-**Project size:** 175 hours
-
-**Difficulty:** Easy/Medium
-
-**Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
-
------------------------------------
-### Integration of transparency reports
-
-**Brief explanation:** Certain services such as Google and Cloudflare disclose
-traffic levels per countries (see https://transparencyreport.google.com/traffic/
-and https://radar.cloudflare.com/ ). The goal of this project is to show this
-data on IHR, so that user can estimate the impact of events observed on IHR to
-traffic changes to popular Internet services.
-
-**Expected results:**
-- Survey of transparency reports
-- Implementation of a visualization widget for multiple datasets
+- Survey of Google transparency reports
+- Implementation of a visualization widget for multiple datasets provided by Google
 - Integration to IHR country reports
 - (optional) Implementation of a backend anomaly detector to complement IHR alerting system
 
@@ -69,11 +38,10 @@ traffic changes to popular Internet services.
 **Resources:**
 - https://github.com/InternetHealthReport/ihr-website
 - https://transparencyreport.google.com/traffic/
-- https://radar.cloudflare.com/ 
 
-**Project size:** 175 hours or 350 hours
+**Project size:** 175 hours 
 
-**Difficulty:** Medium
+**Difficulty:** Easy/Medium
 
 **Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
 
@@ -103,7 +71,7 @@ for a country, this is also something we'd like to implement on IHR website
 - https://www.iijlab.net/en/members/romain/pdf/romain_pam2018.pdf
 - https://github.com/InternetHealthReport/country-as-hegemony-viz
 
-**Project size:** 175 hours or 350 hours
+**Project size:** 175 hours 
 
 **Difficulty:** Medium
 
@@ -146,38 +114,7 @@ multi-dimensional reports.
 
 
 -----------------------------------
-###  Reusable visualizations for Internet open datasets 
-
-**Brief explanation:** Develop reusable building blocks for visual exploration 
-of Internet data. The goal of this project is to provide open source code 
-to browse open data sets (e.g. IHR, RIS/Routeviews and RIPE Atlas) that
-researchers and network operators could easily adapt when investigating outages
-or documenting networking events.
-
-**Expected results:**
-- Development of basic libraries to handle Internet data (BGP, traceroutes) in Observable
-- Examples for monitoring popular open data sets such as RIPE Atlas, M-Lab
-- Examples for a few selected past events (e.g. network outage, route leak, BGP hijack)
-- Documentation
-
-**Knowledge Prerequisite:** Javascript, d3, ObservableHQ 
-
-**Resources:**
-- https://observablehq.com/@emileaben/
-- https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris
-- https://atlas.ripe.net/
-- http://www.routeviews.org/routeviews/
-- https://www.measurementlab.net/
-
-**Project size:** 175 hours or 350 hours
-
-**Difficulty:** Medium
-
-**Contact:** Emile Aben (emile.aben@ripe.net) 
-
-
------------------------------------
-### User management and notifications
+### User management and notifications (continuation of GSoC'22)
 
 **Brief explanation:** IHR database already have tables to manage users, but 
 the website lacks a proper user management system. The users should be able to
@@ -203,29 +140,30 @@ happen.
 **Contact:** Romain Fontugne (romain@iij.ad.jp)
 
 -----------------------------------
-### Integration of Internet Yellow Pages data
+### Search page for the Internet Yellow Pages
 
-**Brief explanation:** The Internet Yellow Pages (IYP: http://iyp.iijlab.net) is an IHR
-project that aims to maintaining a knowledge graph for network resources. The goal
-of this GSoC project is to import and display IYP data for networks, IP prefixes, and 
-countries monitored by IHR.
+**Brief explanation:** The Internet Yellow Pages 
+(IYP: https://github.com/InternetHealthReport/internet-yellow-pages) is a
+knowledge graph for network resources. The goal of this GSoC project is to 
+create a web page for searching information in this knowledge graph. 
+For example, the user enters a network's ASN, then the page query IYP for that 
+network and display all related information.
 
 **Expected results:**
-- Matching IHR monitored resources to IYP items
-- Generic SPARQL queries for extracting relevant information about monitored resources
-- Widgets on IHR website for displaying data related to a selected resource
-- (optional) Simple interface to explore IYP knowlege graph
+- Add basic functions to query IYP (neo4j) from IHR website code
+- Templates to show information related to a ASN, IP address, IP prefix, domain 
+name, country, IXP. 
+- (optional) Simple widget to show on IHR network and country pages
 
-**Knowledge Prerequisite:** javascript, VueJS, SPARQL
+**Knowledge Prerequisite:** javascript, VueJS, Neo4j/Cypher
 
 **Resources:**
 - https://github.com/InternetHealthReport/ihr-website
-- http://iyp.iijlab.net/wiki/Main_Page
-- https://www.mediawiki.org/wiki/Wikibase
+- https://github.com/InternetHealthReport/internet-yellow-pages
 
-**Project size:** 175 hours (350 hours if planning to add the browsing interface)
+**Project size:** 175 hours to 350 hours (depending on the number of templates)
 
-**Difficulty:** Easy/Medium
+**Difficulty:** Medium
 
 **Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
 
@@ -256,32 +194,7 @@ to perform lightweight speed test using, for example, the technique proposed in 
 **Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
 
 -----------------------------------
-### Port link monitoring code to python3 and Kafka
-
-**Brief explanation:** We have stopped our link monitoring code (https://github.com/InternetHealthReport/tartiflette)
-because this code need to be updated to our current backend. That means porting the code
-to python3 and fetching traceroute data from Kafka. This code is based on this research
-paper: https://www.iijlab.net/en/members/romain/pdf/romain_imc2017.pdf
-
-**Expected results:**
-- Code ported to python3
-- Data fetching from Kafka
-- Unit tests / Documentation
-
-**Knowledge Prerequisite:** python, Kafka
-
-**Resources:**
-- https://github.com/InternetHealthReport/tartiflette
-- https://www.iijlab.net/en/members/romain/pdf/romain_imc2017.pdf
-
-**Project size:** 175 hours
-
-**Difficulty:** Medium
-
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
-
------------------------------------
-### IHR exploratory dashboard
+### IHR exploratory dashboard (continuation of GSoC'22)
 
 **Brief explanation:** To show the impact of events on Internet performances we usually 
 have to monitor multiple metrics at different periods of time. For example, to measure
@@ -294,6 +207,10 @@ Then it would plot the corresponding data. Depending on the contributor's abilit
 features can be added to this dashboard. For example, an assistant to select a set of 
 important networks from a selected country, or global statistics about plotted data.
 
+The main framework behind this dashboard has been implemented during GSoC'22 
+(see https://github.com/InternetHealthReport/ihr-website/tree/exploratory-dashboard), 
+but it needs UI and features improvements to be integrated to IHR website.
+
 **Expected results:**
 - Flexible user input form
 - Plots based on user's input
@@ -304,7 +221,7 @@ important networks from a selected country, or global statistics about plotted d
 **Knowledge Prerequisite:** javascript, VueJS
 
 **Resources:**
-- https://github.com/InternetHealthReport/ihr-website
+- https://github.com/InternetHealthReport/ihr-website (see the explratory-dashboard branch)
 - https://ihr.iijlab.net/ihr/en-us/covid19
 
 **Project size:** 175 hours for the basic implementation (350 hours for full-featured dashboard)
@@ -312,6 +229,26 @@ important networks from a selected country, or global statistics about plotted d
 **Difficulty:** Medium
 
 **Contact:** Romain Fontugne (romain@iij.ad.jp)
+
+-----------------------------------
+### Dockerize all IHR components
+
+**Brief explanation:** The IHR backend is based on a lot of different analysis
+modules, anomaly detectors, and scripts that produce data for our main database.
+The goal of this project is to create docker images for all these components so
+that each component can be easily move on our servers.
+
+**Expected results:**
+- A docker image for each IHR analysis module
+- Documentation on how to use the containers
+
+**Knowledge Prerequisite:** docker, python
+
+**Resources:**
+- https://github.com/InternetHealthReport/
+
+**Contact:**  romain@iij.ad.jp
+
 
 -----------------------------------
 
