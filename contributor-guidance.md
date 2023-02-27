@@ -1,5 +1,5 @@
 # Instructions for contributors
-Students and developper wishing to participate in Summer of Code must realise this is a important professional opportunity.
+Students and developers wishing to participate in Summer of Code must realise this is a important professional opportunity.
 You will be required to produce code for IHR during the coding period. Your mentors, IHR researchers, will dedicate a 
 portion of their time to mentoring you. Therefore, we seek candidates who are committed to helping IHR long-term and are 
 willing to both do quality work, and be proactive in communicating with your mentor(s).
