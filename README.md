@@ -6,6 +6,7 @@ To get started please read the [GSoC FAQ](https://developers.google.com/open-sou
 All participants will need a Google account in order to join the program. So, save time and create one now. 
 
 ## Contents
+- [IHR Handbook for Contributors](ihr-contributor-handbook.md) : Start from here 🚀
 - [Instructions for contributors (students or developers)](contributor-guidance.md)
 - [Instructions for mentors](mentor-guidance.md)
 - [List of ideas for projects](ideas.md)
