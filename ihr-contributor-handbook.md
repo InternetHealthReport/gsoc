@@ -1,14 +1,14 @@
 
-# The Internet Health Report: Handbook for Contributors  
-------------
+<h1 align='center'> The Internet Health Report: Handbook for Contributors  </h1>
+
 
 # **1. Why this handbook?**
 The goal of this handbook is to give a very brief overview of the Internet Health
-Report project and guidelines to contribute to this open-source project.  
+Report project and guidelines to contribute to this open-source organisation.  
 
 # **2. How does the Internet work?**
 Browsing the IHR website, and consequently contributing to IHR, requires basic networking knowledge. 
-This section covers the most basic concepts that are needed for your journey to IHR.
+This section covers the most basic concepts that are needed for you to start your journey at IHR.
 
 ## 2.1 The basics of Internet routing
 The internet is like a giant network that connects millions of computers and devices all around the world. It is usually referred to as “the network of networks” because it is one global entity composed of thousands of smaller heterogeneous networks that are interconnected. 
