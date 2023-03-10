@@ -73,7 +73,7 @@ We envision IHR as an observatory for Internet topology. It helps us to understa
 
 ## 3.3. The Projects of IHR
 Here we give a brief overview of the different projects that are under the umbrella of IHR. All these projects are entirely open source and available on github:[https://github.com/InternetHealthReport/](https://github.com/InternetHealthReport/) 
-Also the data produced by IHR is publicly available via the API ([https://ihr.iijlab.net/ihr/en-us/api](https://ihr.iijlab.net/ihr/en-us/api) and IHR’s archive website([https://ihr-archive.iijlab.net/](https://ihr-archive.iijlab.net/)). 
+Also the data produced by IHR is publicly available via the API ([https://ihr.iijlab.net/ihr/en-us/api](https://ihr.iijlab.net/ihr/en-us/api) and IHR’s archive website ([https://ihr-archive.iijlab.net/](https://ihr-archive.iijlab.net/)). 
 
 ## Overview of the main projects
 ![](imgs/ihr-diagram.png)
