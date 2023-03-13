@@ -148,7 +148,7 @@ There are numerous ways to contribute to IHR:
 - **Researchers** can integrate their own Internet measurement analysis modules or results to the IHR platform or website and we’ll be glad to assist them to do so. We are also very open to collaborations for any project related to Internet measurements and studies using IHR data.
 - **Network operators, policy makers, and all users** of IHR website and datasets are more than welcome to send their feedback and desired features. We are also particularly interested to hear how we can improve and make IHR more useful.
 - **UI/UX Designers and Software Developers** are needed to develop and improve IHR tools. Undoubtedly UX is important for us to get the most out of IHR data. We welcome any suggestions to improve the user experience on the IHR website. Software developers are welcome to collaborate with us on Github to improve our tools and develop new features. 
-- **Technical Writers** are welcome to document any of the events and insights found in IHR data. Writing documentation for our tools or data is also a greate contribution to IHR.
+- **Technical Writers** are welcome to document any of the events and insights found in IHR data. Writing documentation for our tools or data is also a great contribution to IHR.
 
 
 
