@@ -19,11 +19,12 @@ All participants will need a Google account in order to join the program. So, sa
 
 # Recommended steps
 1) Read [GSoC Student Manual](https://google.github.io/gsocguides/student/), especially the advices for [writing a proposal](https://google.github.io/gsocguides/student/writing-a-proposal).
-2) Take a look at the [list of ideas](ideas.md).
-3) Come up with a project that you're interested in.
-4) Write a first draft proposal and get someone to review it.
-5) Submit proposal using Google's web interface ahead of the deadline.
-6) Submit proof of enrollment well ahead of the deadline.
+2) Read [IHR handbook for contributors](https://github.com/InternetHealthReport/gsoc/blob/main/ihr-contributor-handbook.md) to make sure you understand the goals of IHR and how to contribute to our code base.
+3) Take a look at the [list of ideas](ideas.md).
+4) Come up with a project that you're interested in.
+5) Write a first draft proposal and get someone to review it.
+6) Submit proposal using Google's web interface ahead of the deadline.
+7) Submit proof of enrollment well ahead of the deadline.
 
 # Hints
 Submit your proposal early: early submissions get more attention because mentors have more time to read them. 
