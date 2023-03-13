@@ -115,7 +115,7 @@ This code detects delay and forwarding anomalies in traceroute data, it produces
 ### country-as-hegemony
 https://github.com/InternetHealthReport/country-as-hegemony
 
-This code computes AS Hegemony for all ASes in the same country. This is one of the only module that doesn’t read data from kafka, it obtains data from IHR and APNIC APIs. The corresponding results are available in the /hegemony/countries API endpoint and referred to as Network *dependency* in the country reports of the IHR website.
+This code computes AS Hegemony for all ASes in the same country. This is one of the only module that doesn’t read data from kafka, it obtains data from IHR and APNIC APIs. The corresponding results are available in the /hegemony/countries API endpoint and referred to as *Network Dependency* in the country reports of the IHR website.
 
 ### psql-dump
 https://github.com/InternetHealthReport/psql-dump
