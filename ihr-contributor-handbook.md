@@ -49,7 +49,7 @@ An IP prefix is a range of IP addresses that are assigned to a particular networ
 For example, the IP address range 192.168.0.0/24 represents a range of 256 IP addresses, from 192.168.0.1 to 192.168.0.255. The subnet mask "/24" means that the first 24 bits of the IP address are used to identify the network, and the remaining 8 bits are used to identify the device within that network.
 IP prefixes are used in routing to determine the most efficient path for data packets to take between networks. When a packet is sent from one device to another, routers use the IP prefix to determine which network the destination device is on, and then use routing protocols like BGP to determine the best path for the packet to take to reach its destination.
 ### Internet Topology 
-The physical or logical arrangement of ASes and connections and connections between these ASes. Think of it as a map of the Internet.
+The physical or logical arrangement of ASes and connections between these ASes. Think of it as a map of the Internet.
 ### Peering
 The act of two or more ASes connecting their networks together to exchange traffic directly, rather than through other networks.
 ### RIPE Atlas
