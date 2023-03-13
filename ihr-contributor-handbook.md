@@ -154,7 +154,7 @@ There are numerous ways to contribute to IHR:
 
 ## 4.2. (no) Prerequisites
 
-Anyone can contribute. Of course it depends on your skills, but remember there is no small contribution. A bug report, documentation improvement, a feature request are all invaluable contributions. If you want to dive into the IHR code base, we are mostly using  JavaScript (Vue.js)  for the frontend and Python for the backend. 
+Anyone can contribute. Of course it depends on your skills, but remember there is no small contribution. A bug report, documentation improvement, a feature request are all valuable contributions. If you want to dive into the IHR code base, we are mostly using  JavaScript (Vue.js)  for the frontend and Python for the backend. 
 
 ## 4.3 How to contribute?
 
