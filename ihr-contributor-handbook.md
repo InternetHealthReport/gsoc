@@ -49,7 +49,7 @@ An IP prefix is a range of IP addresses that are assigned to a particular networ
 For example, the IP address range 192.168.0.0/24 represents a range of 256 IP addresses, from 192.168.0.1 to 192.168.0.255. The subnet mask "/24" means that the first 24 bits of the IP address are used to identify the network, and the remaining 8 bits are used to identify the device within that network.
 IP prefixes are used in routing to determine the most efficient path for data packets to take between networks. When a packet is sent from one device to another, routers use the IP prefix to determine which network the destination device is on, and then use routing protocols like BGP to determine the best path for the packet to take to reach its destination.
 ### Internet Topology 
-The physical or logical arrangement of ASes and connections and connections between these ASes. Think of it as a map of the Internet.
+The physical or logical arrangement of ASes and connections between these ASes. Think of it as a map of the Internet.
 ### Peering
 The act of two or more ASes connecting their networks together to exchange traffic directly, rather than through other networks.
 ### RIPE Atlas
@@ -115,7 +115,7 @@ This code detects delay and forwarding anomalies in traceroute data, it produces
 ### country-as-hegemony
 https://github.com/InternetHealthReport/country-as-hegemony
 
-This code computes AS Hegemony for all ASes in the same country. This is one of the only module that doesn’t read data from kafka, it obtains data from IHR and APNIC APIs. The corresponding results are available in the /hegemony/countries API endpoint and referred to as Network *dependency* in the country reports of the IHR website.
+This code computes AS Hegemony for all ASes in the same country. This is one of the only module that doesn’t read data from kafka, it obtains data from IHR and APNIC APIs. The corresponding results are available in the /hegemony/countries API endpoint and referred to as *Network Dependency* in the country reports of the IHR website.
 
 ### psql-dump
 https://github.com/InternetHealthReport/psql-dump
@@ -148,13 +148,13 @@ There are numerous ways to contribute to IHR:
 - **Researchers** can integrate their own Internet measurement analysis modules or results to the IHR platform or website and we’ll be glad to assist them to do so. We are also very open to collaborations for any project related to Internet measurements and studies using IHR data.
 - **Network operators, policy makers, and all users** of IHR website and datasets are more than welcome to send their feedback and desired features. We are also particularly interested to hear how we can improve and make IHR more useful.
 - **UI/UX Designers and Software Developers** are needed to develop and improve IHR tools. Undoubtedly UX is important for us to get the most out of IHR data. We welcome any suggestions to improve the user experience on the IHR website. Software developers are welcome to collaborate with us on Github to improve our tools and develop new features. 
-- **Technical Writers** are welcome to document any of the events and insights found in IHR data. Writing documentation for our tools or data is also a greate contribution to IHR.
+- **Technical Writers** are welcome to document any of the events and insights found in IHR data. Writing documentation for our tools or data is also a great contribution to IHR.
 
 
 
 ## 4.2. (no) Prerequisites
 
-Anyone can contribute. Of course it depends on your skills, but remember there is no small contribution. A bug report, documentation improvement, a feature request are all invaluable contributions. If you want to dive into the IHR code base, we are mostly using  JavaScript (Vue.js)  for the frontend and Python for the backend. 
+Anyone can contribute. Of course it depends on your skills, but remember there is no small contribution. A bug report, documentation improvement, a feature request are all valuable contributions. If you want to dive into the IHR code base, we are mostly using  JavaScript (Vue.js)  for the frontend and Python for the backend. 
 
 ## 4.3 How to contribute?
 
