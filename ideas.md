@@ -47,7 +47,6 @@ the impact of events observed on IHR to traffic changes to popular Internet serv
 
 -----------------------------------
 ### Network dependency visualization
-If appropriate, screenshot or another image
 
 **Brief explanation:** IHR monitors the inter-dependence of networks (e.g. the 
 university of Tokyo relies on Japan national academic ISP) and displays these
