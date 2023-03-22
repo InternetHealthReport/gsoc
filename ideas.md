@@ -218,8 +218,11 @@ that each component can be easily move on our servers.
 **Expected results:**
 - A docker image for each IHR analysis module
 - Documentation on how to use the containers
+- (optional) orchestration if necessary
 
 **Knowledge Prerequisite:** docker, python
+
+**Project size:** 175 hours 
 
 **Resources:**
 - https://github.com/InternetHealthReport/
@@ -241,6 +244,8 @@ If appropriate, screenshot or another image
 
 **Resources:**
 - https://github.com/InternetHealthReport/
+
+**Project size:** 175 hours or 350 hours 
 
 **Contact:**  (your name and email address for contact)
 
