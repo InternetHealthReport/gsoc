@@ -2,215 +2,165 @@
 
 ## Information for Students
 
-These ideas were contributed by current IHR contributors. They are sometimes vague or incomplete. 
-If you wish to submit a proposal based on these ideas, you are urged to contact the related person 
-and find out more about the particular suggestion you're looking at.
+Make sure you have read the IHR [contributor handbook](./ihr-contributor-handbook.md)
+
+The below ideas were contributed by current IHR contributors. They are sometimes vague or incomplete. 
+If you wish to submit a proposal based on these ideas, feel free to ask question 
+on related [github discussion thread](https://github.com/orgs/InternetHealthReport/discussions)
+or contact the related person and find out more about these ideas.
 
 Becoming accepted as a Google Summer of Code student is quite competitive. 
 Accepted students typically have thoroughly researched the topic of their proposed project and have been in frequent contact with potential mentors. 
 Simply copying and pasting an idea here will not work. 
 On the other hand, creating a completely new idea without first consulting potential mentors rarely works.
 
-That said, these are just proposals, we are open to new ideas you might have!
-Do you have an awesome idea you want to work on with IHR but that is not among the ideas below? 
+Also keep in mind that these are just proposals, we are open to new ideas you might have!
+Do you have an awesome idea you want to work on for IHR but that is not among the ideas below? 
 That's cool. We love that! 
-But please get in touch with a mentor early on and make sure your project is realistic and within the scope of IHR.
+Please get in touch with a mentor early on and make sure your project is realistic and within the scope of IHR.
 
-If there is no specific contact given you can ask questions at admin@ihr.live.
+If there is no specific contact given you can ask questions on github, slack, or at admin@ihr.live.
 
 ## List of ideas
 
-### Integration of Google transparency reports
+-----------------------------------
+### Real-time BGP monitor
 
-**Brief explanation:** Google discloses traffic levels per countries 
-(see https://transparencyreport.google.com/traffic/). 
-The goal of this project is to show this data on IHR, so that user can estimate 
-the impact of events observed on IHR to traffic changes to popular Internet services.
+**Brief explanation:**
+Network operators need to monitor the global reachability of their IP prefixes 
+every time they update their routing policies, RPKI, or BGP announcements.
+The goal of this project is to provide a monitoring dashboard on the IHR website 
+to easily monitor how a prefix propagates on the Internet. This tool should get
+a prefix (or list of prefixes or an ASN) from a user, optionnally the user can
+select a list of RIS collectors and the maximum number of hops from the monitored
+prefix to display. Then the user push a 'play' button. The tool connects to 
+RIS Live with the corresponding parameters and displays the AS paths received.
+It could be similar to [BGPlay](https://stat.ripe.net/widget/bgplay) but we'd like to  
+show only nodes that are near the monitored prefix so the graphs are more readable.
+A path should be replaced if a new path is advertised by the same peer.
+We also would like to show line charts to reflect the changes over time.
 
 **Expected results:**
-- Survey of Google transparency reports
-- Implementation of a visualization widget for multiple datasets provided by Google
-- Integration to IHR country reports
-- (optional) Implementation of a backend anomaly detector to complement IHR alerting system
+- Simple UI for getting the parameters from the user (prefix, collectors, number of hops)
+- Display RIS Live data in a graph with some annotations (e.g. ASN, BGP communities)
+- Integration to IHR website
+- (optional) show additional information about ASes using IYP 
+- (optional) near realtime RPKI status using for example https://rpki.gin.ntt.net/api/export.json
 
-**Knowledge Prerequisite:** Javascript, python, VueJS 
+**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/34
+
+**Knowledge Prerequisite:** Basics of BGP, Javascript, VueJS, D3JS or other plotting library
 
 **Resources:**
-- https://github.com/InternetHealthReport/ihr-website
-- https://transparencyreport.google.com/traffic/
+- https://ris-live.ripe.net/
+- https://stat.ripe.net/widget/bgplay
+
+**Project size:** 175 hours 
+
+**Difficulty:** Medium
+
+**Contact:** Romain Fontugne (romain@iij.ad.jp), Emile Aben (emile.aben@ripe.net), Dimitrios Giakatos
+
+-----------------------------------
+### IYP automatic deployment
+
+**Brief explanation:** For the Internet Yellow Pages we compute every week a new 
+database that we want to make publicly available as soon as possible. The goal 
+of this project is to design and implement this automated deployment. This 
+requires multiple tests that will ensure the integrity of the new database, 
+automatically store the new database on a public repository, and hot swap databases.
+Optionally we could keep older databases online, for example all databases for the 
+past month.
+
+**Expected results:**
+- Design an easy to maintain automated pipeline that would be easy to maintain
+- Implement unit tests for each of the IYP dataset
+- Implement automatic deployment and hot swap of IYP databases
+- (optional) Maintain multiple instances of the database
+
+**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/35
+
+**Knowledge Prerequisite:** Neo4j, python, docker
+
+**Resources:**
+- https://github.com/InternetHealthReport/internet-yellow-pages
+- http://iyp.iijlab.net/
 
 **Project size:** 175 hours 
 
 **Difficulty:** Easy/Medium
 
-**Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
+**Contact:** Romain Fontugne (romain@iij.ad.jp), Malte Tashiro (malte@iij.ad.jp)
 
 -----------------------------------
-### Network dependency visualization
-If appropriate, screenshot or another image
+### Network topology overview
 
 **Brief explanation:** IHR monitors the inter-dependence of networks (e.g. the 
-university of Tokyo relies on Japan national academic ISP) and displays these
+university of Tokyo relies on Japan's academic ISP) and displays these
 dependencies with very simple line charts that highlights changes over time.
-Representing this data as a graph is more intuitive for network operators. 
-Each node is an AS and dependencies are links. This graph can also be annotated
-with other metrics reported by IHR, for example, latency.
+Representing this data as a graph is more intuitive for network operators.
+So the goal of this project is to show the connectivity of a network (aka AS) in
+a simple graph.
+Using data from the Internet Yellow Pages we can depict a very detailed view of
+an AS, by finding all prefixes originated by the AS, fetching AS dependencies for
+all these prefixes, grouping these prefixes based on their dependencies, and 
+finally displaying an AS graph that shows how these prefixes are connected to the
+Internet. Additional information for each AS/prefix can be displayed by querying
+IYP.
 Related to this project, we have an offline tool that shows network dependencies 
 for a country, this is also something we'd like to implement on IHR website
 (https://github.com/InternetHealthReport/country-as-hegemony-viz).
 
 **Expected results:**
 - Create a VueJS component that show the dependency graph
-- Add mechanisms to display changes over time
-- Annotate the graph with other metrics and external datasets
+- Integrate this component in IHR network report
+- (optional) Create similar views for a country or a single prefix
 
-**Knowledge Prerequisite:** Javascript, VueJS, and visualization library (i.e. Plotly or D3.js)
+**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/
+
+**Knowledge Prerequisite:** Basics of BGP, Javascript, VueJS, and visualization library (i.e. Plotly or D3.js)
 
 **Resources:**
 - https://github.com/InternetHealthReport/ihr-website
 - https://www.iijlab.net/en/members/romain/pdf/romain_pam2018.pdf
 - https://github.com/InternetHealthReport/country-as-hegemony-viz
 
-**Project size:** 175 hours 
+**Project size:** 175 hours to 350 hours
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
-
+**Contact:** Romain Fontugne (romain@iij.ad.jp), Malte Tashiro (malte@iij.ad.jp), Dimitrios Giakatos
 
 -----------------------------------
-### Alarms correlation and aggregated reports
+### Traceroute visualization
 
-**Brief explanation:** IHR implements simple anomaly detectors to identify changes 
-in monitored metrics. This results in a lot of alarms displayed as tables in IHR
-global reports. The most important events usually generates numerous alarms
-across multiple datasets. The goal of this project is to group topologically or 
-geographically related alarms that happen at the same time and provide 
-multi-dimensional reports.
+**Brief explanation:** Operators would like to have a better way to visualize 
+latency increases in upstream networks. We have a lot of traceroute data from 
+RIPE Atlas but we miss a good visualization to show traceroute details.
+The goal of this project is to design and implement a page on IHR to visualize
+traceroute results from RIPE Atlas.
+There is some good tools to get inspired from ([tracemon](https://labs.ripe.net/author/massimo_candela/tracemon-network-debugging-made-easy/) and [thousands eyes path visualization](https://www.youtube.com/watch?v=H2qJhrNVEi0),
+having our own would be great so we can integrate it with other tools (e.g. IYP, AS Hegemony).
 
 **Expected results:**
-- This can be either implemented as an online or offline tool
-- For an online implementation we expect:
-    - A JS module to analyze and aggregate alarms
-    - A VueJS component to display aggregated alarms
-    - Integration with IHR's global report
-- For an offline implementation we expect:
-    - More comprehensive anlysis of IHR alarms with the possibility to add alarms 
-    from other tools (e.g. BGPAlerter)
-    - Allow user to provide feedback about the importance of reported alarms
-    - Simple machine learning to personnalized this alerting system
+- Create a VueJS component that fetch traceroute results from RIPE Atlas
+- Display the results in intuitive graphs, showing the IP paths and corresponding RTT values
+- Integrate with IYP data 
+- 
+**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/21
 
-**Knowledge Prerequisite:** Javascript/Python, visualization library, networking basics 
+**Knowledge Prerequisite:** Good understanding of traceroute, Javascript, VueJS, and visualization library (i.e. Plotly or D3.js)
 
 **Resources:**
 - https://github.com/InternetHealthReport/ihr-website
-- https://ihr.iijlab.net/ihr/en-us/global_report
+- https://atlas.ripe.net/
+- https://labs.ripe.net/author/massimo_candela/tracemon-network-debugging-made-easy/
 
-**Project size:** 350 hours
-
-**Difficulty:** Medium / Hard
-
-**Contact:** Emile Aben (emile.aben@ripe.net), Romain Fontugne (romain@iij.ad.jp)
-
+**Contact:** Romain Fontugne (romain@iij.ad.jp), Malte Tashiro (malte@iij.ad.jp)
 
 -----------------------------------
-### User management and notifications (continuation of GSoC'22)
-
-**Brief explanation:** As part of GSoC'22, a basic user management has been
-implemented in IHR front and backend. The users should be able to
-input a list of networks and country they are interested in so that IHR can send
-them personalized alerts when disruptions or important routing changes
-happen. This code requires some more polishing/testing to be deployed on the IHR website. 
-It also lacks a way to send notification to the users. We'd like to give different 
-options to communicate with the users (email, slack, discord, etc...).
-
-**Expected results:**
-- Testing/improving existing code
-    - https://github.com/InternetHealthReport/ihr-website/tree/user-mngt
-    - https://github.com/InternetHealthReport/ihr-django
-- Add ways to choose a communication channel (email, slack, etc...)
-- Send notification (email, slack, etc...)
-
-**Knowledge Prerequisite:** python, django, javascript, VueJS
-
-**Resources:**
-- https://github.com/InternetHealthReport/ihr-website
-- https://github.com/InternetHealthReport/ihr-django
-
-**Project size:** 175 hours
-
-**Difficulty:** Easy/Medium
-
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
-
------------------------------------
-### Search page for the Internet Yellow Pages
-
-**Brief explanation:** The Internet Yellow Pages 
-(IYP: https://github.com/InternetHealthReport/internet-yellow-pages) is a
-knowledge graph for network resources. The goal of this GSoC project is to 
-create a web page for searching information in this knowledge graph. 
-For example, the user enters a network's ASN, then the page query IYP for that 
-network and display all related information.
-
-**Expected results:**
-- Add basic functions to query IYP (neo4j) from IHR website code
-- Templates to show information related to a ASN, IP address, IP prefix, domain 
-name, country, IXP. 
-- (optional) Simple widget to show on IHR network and country pages
-
-**Knowledge Prerequisite:** javascript, VueJS, Neo4j/Cypher
-
-**Resources:**
-- https://github.com/InternetHealthReport/ihr-website
-- https://github.com/InternetHealthReport/internet-yellow-pages
-
-**Project size:** 175 hours to 350 hours (depending on the number of templates)
-
-**Difficulty:** Medium
-
-**Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
-
------------------------------------
-### IHR exploratory dashboard (continuation of GSoC'22)
-
-**Brief explanation:** To show the impact of events on Internet performances we usually 
-have to monitor multiple metrics at different periods of time. For example, to measure
-the impact of national lockdowns during the outbreak of COVID19 we designed this dashboard:
-https://ihr.iijlab.net/ihr/en-us/covid19?country=France
-The goal of this project is to create a more flexible dashboard that allow a user to explore
-IHR dataset and monitor any event. For this the implemented dashboard would let the user 
-select a set of source and destination networks (or cities), time periods, and a metric (e.g. RTT).
-Then it would plot the corresponding data. Depending on the contributor's ability a lot of
-features can be added to this dashboard. For example, an assistant to select a set of 
-important networks from a selected country, or global statistics about plotted data.
-
-The main framework behind this dashboard has been implemented during GSoC'22 
-(see https://github.com/InternetHealthReport/ihr-website/tree/exploratory-dashboard), 
-but it needs UI and features improvements to be integrated to IHR website.
-
-**Expected results:**
-- Flexible user input form
-- Plots based on user's input
-- Permanent links for sharing plots on social media
-- (optional) Networks selection assistant
-- (optional) Add statistics about plotted data
-
-**Knowledge Prerequisite:** javascript, VueJS
-
-**Resources:**
-- https://github.com/InternetHealthReport/ihr-website (see the explratory-dashboard branch)
-- https://ihr.iijlab.net/ihr/en-us/covid19
-
-**Project size:** 175 hours for the basic implementation (350 hours for full-featured dashboard)
-
-**Difficulty:** Medium
-
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
-
------------------------------------
-### Dockerize all IHR components
-
+### Dockerize all IHR components (continuation of GSoC'23)
+ 
 **Brief explanation:** The IHR backend is based on a lot of different analysis
 modules, anomaly detectors, and scripts that produce data for our main database.
 The goal of this project is to create docker images for all these components so
@@ -225,12 +175,13 @@ that each component can be easily move on our servers.
 **Resources:**
 - https://github.com/InternetHealthReport/
 
-**Contact:**  romain@iij.ad.jp
+**Contact:** Romain Fontugne (romain@iij.ad.jp), Anant Shah (ashah@edg.io)
 
 
 -----------------------------------
 
 ## Proposal template
+-----------------------------------
 ### Project
 If appropriate, screenshot or another image
 
@@ -238,11 +189,14 @@ If appropriate, screenshot or another image
 
 **Expected results:**
 
+**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/
+
 **Knowledge Prerequisite:**
 
 **Resources:**
 - https://github.com/InternetHealthReport/
 
 **Contact:**  (your name and email address for contact)
+
 
 *Content based on [https://community.kde.org/GSoC](https://community.kde.org/GSoC) and available under [Creative Commons License SA 4.0](https://community.kde.org/KDE_Community_Wiki:Copyrights)*
