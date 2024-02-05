@@ -1,14 +1,14 @@
 
-# The Internet Health Report: Handbook for Contributors  
-------------
+<h1 align='center'> The Internet Health Report: Handbook for Contributors  </h1>
+
 
 # **1. Why this handbook?**
 The goal of this handbook is to give a very brief overview of the Internet Health
-Report project and guidelines to contribute to this open-source project.  
+Report project and guidelines to contribute to this open-source organisation.  
 
 # **2. How does the Internet work?**
 Browsing the IHR website, and consequently contributing to IHR, requires basic networking knowledge. 
-This section covers the most basic concepts that are needed for your journey to IHR.
+This section covers the most basic concepts that are needed for you to start your journey at IHR.
 
 ## 2.1 The basics of Internet routing
 The internet is like a giant network that connects millions of computers and devices all around the world. It is usually referred to as “the network of networks” because it is one global entity composed of thousands of smaller heterogeneous networks that are interconnected. 
@@ -49,7 +49,7 @@ An IP prefix is a range of IP addresses that are assigned to a particular networ
 For example, the IP address range 192.168.0.0/24 represents a range of 256 IP addresses, from 192.168.0.1 to 192.168.0.255. The subnet mask "/24" means that the first 24 bits of the IP address are used to identify the network, and the remaining 8 bits are used to identify the device within that network.
 IP prefixes are used in routing to determine the most efficient path for data packets to take between networks. When a packet is sent from one device to another, routers use the IP prefix to determine which network the destination device is on, and then use routing protocols like BGP to determine the best path for the packet to take to reach its destination.
 ### Internet Topology 
-The physical or logical arrangement of ASes and connections and connections between these ASes. Think of it as a map of the Internet.
+The physical or logical arrangement of ASes and connections between these ASes. Think of it as a map of the Internet.
 ### Peering
 The act of two or more ASes connecting their networks together to exchange traffic directly, rather than through other networks.
 ### RIPE Atlas
@@ -73,7 +73,7 @@ We envision IHR as an observatory for Internet topology. It helps us to understa
 
 ## 3.3. The Projects of IHR
 Here we give a brief overview of the different projects that are under the umbrella of IHR. All these projects are entirely open source and available on github:[https://github.com/InternetHealthReport/](https://github.com/InternetHealthReport/) 
-Also the data produced by IHR is publicly available via the API ([https://ihr.iijlab.net/ihr/en-us/api](https://ihr.iijlab.net/ihr/en-us/api) and IHR’s archive website([https://ihr-archive.iijlab.net/](https://ihr-archive.iijlab.net/)). 
+Also the data produced by IHR is publicly available via the API ([https://ihr.iijlab.net/ihr/en-us/api](https://ihr.iijlab.net/ihr/en-us/api) and IHR’s archive website ([https://ihr-archive.iijlab.net/](https://ihr-archive.iijlab.net/)). 
 
 ## Overview of the main projects
 ![](imgs/ihr-diagram.png)
@@ -115,7 +115,7 @@ This code detects delay and forwarding anomalies in traceroute data, it produces
 ### country-as-hegemony
 https://github.com/InternetHealthReport/country-as-hegemony
 
-This code computes AS Hegemony for all ASes in the same country. This is one of the only module that doesn’t read data from kafka, it obtains data from IHR and APNIC APIs. The corresponding results are available in the /hegemony/countries API endpoint and referred to as Network *dependency* in the country reports of the IHR website.
+This code computes AS Hegemony for all ASes in the same country. This is one of the only module that doesn’t read data from kafka, it obtains data from IHR and APNIC APIs. The corresponding results are available in the /hegemony/countries API endpoint and referred to as *Network Dependency* in the country reports of the IHR website.
 
 ### psql-dump
 https://github.com/InternetHealthReport/psql-dump
@@ -148,13 +148,13 @@ There are numerous ways to contribute to IHR:
 - **Researchers** can integrate their own Internet measurement analysis modules or results to the IHR platform or website and we’ll be glad to assist them to do so. We are also very open to collaborations for any project related to Internet measurements and studies using IHR data.
 - **Network operators, policy makers, and all users** of IHR website and datasets are more than welcome to send their feedback and desired features. We are also particularly interested to hear how we can improve and make IHR more useful.
 - **UI/UX Designers and Software Developers** are needed to develop and improve IHR tools. Undoubtedly UX is important for us to get the most out of IHR data. We welcome any suggestions to improve the user experience on the IHR website. Software developers are welcome to collaborate with us on Github to improve our tools and develop new features. 
-- **Technical Writers** are welcome to document any of the events and insights found in IHR data. Writing documentation for our tools or data is also a greate contribution to IHR.
+- **Technical Writers** are welcome to document any of the events and insights found in IHR data. Writing documentation for our tools or data is also a great contribution to IHR.
 
 
 
 ## 4.2. (no) Prerequisites
 
-Anyone can contribute. Of course it depends on your skills, but remember there is no small contribution. A bug report, documentation improvement, a feature request are all invaluable contributions. If you want to dive into the IHR code base, we are mostly using  JavaScript (Vue.js)  for the frontend and Python for the backend. 
+Anyone can contribute. Of course it depends on your skills, but remember there is no small contribution. A bug report, documentation improvement, a feature request are all valuable contributions. If you want to dive into the IHR code base, we are mostly using  JavaScript (Vue.js)  for the frontend and Python for the backend. 
 
 ## 4.3 How to contribute?
 
@@ -202,6 +202,7 @@ For those interested to learn more about how the Internet works, here is a list 
 
 ## Blogs
 - [The](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[ ](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[Internet](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[ ](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[Health](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[ ](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[Report](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[, ](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[RIPE](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[ ](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)[Labs](https://labs.ripe.net/author/romain_fontugne/the-internet-health-report/)
+- [Understanding the Japanese Internet with the Internet Yellow Pages](https://blog.apnic.net/2023/09/06/understanding-the-japanese-internet-with-the-internet-yellow-pages/)
 - APNIC’s ‘Basic routing concepts’ series:
   - [Part](https://blog.apnic.net/2021/09/01/routing-concepts-you-may-have-forgotten-part-1-prefixes/)[ 1: ](https://blog.apnic.net/2021/09/01/routing-concepts-you-may-have-forgotten-part-1-prefixes/)[Prefixes](https://blog.apnic.net/2021/09/01/routing-concepts-you-may-have-forgotten-part-1-prefixes/)
   - [Part](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[ 2: ](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[BGP](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[ ](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[is](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[ ](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[just](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[ ](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[harnessing](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[ ](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)[gossip](https://blog.apnic.net/2021/09/10/routing-concepts-you-may-have-forgotten-part-2-bgp-is-just-harnessing-gossip/)
@@ -211,6 +212,8 @@ For those interested to learn more about how the Internet works, here is a list 
 - [“](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[Computer](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[ ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[Networking](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[: ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[A](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[ ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[Top](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[-](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[Down](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[ ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[Approach](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[” ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[from](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[ ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[Jim](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[ ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[Kurose](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[ ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[and](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[ ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[Keith](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[ ](https://gaia.cs.umass.edu/kurose_ross/eighth.php)[Ross](https://gaia.cs.umass.edu/kurose_ross/eighth.php)
 
 ## Videos
+- [IHR Overview (short)](https://youtu.be/mdjMdaLdlfY)
+- [IHR Overview (long)](https://seminar-materials.iijlab.net/iijlab-seminar/iijlab-seminar-20230530.mp4)
 - [BGP](https://www.youtube.com/watch?v=_Z29ZzKeZHc)[ ](https://www.youtube.com/watch?v=_Z29ZzKeZHc)[Overview](https://www.youtube.com/watch?v=_Z29ZzKeZHc)
 - [Sharon](https://www.youtube.com/watch?v=PQoa2coBCDs)[ ](https://www.youtube.com/watch?v=PQoa2coBCDs)[Goldberg](https://www.youtube.com/watch?v=PQoa2coBCDs)[ ](https://www.youtube.com/watch?v=PQoa2coBCDs)[on](https://www.youtube.com/watch?v=PQoa2coBCDs)[ ](https://www.youtube.com/watch?v=PQoa2coBCDs)[BGP](https://www.youtube.com/watch?v=PQoa2coBCDs)[: ](https://www.youtube.com/watch?v=PQoa2coBCDs)[A](https://www.youtube.com/watch?v=PQoa2coBCDs)[ ](https://www.youtube.com/watch?v=PQoa2coBCDs)[Primer](https://www.youtube.com/watch?v=PQoa2coBCDs)
 - [Playlist](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[: ](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[Computer](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[ ](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[Networking](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[: ](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[A](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[ ](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[Top](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[-](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[Down](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[ ](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)[Approach](https://youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu) 
