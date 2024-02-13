@@ -125,7 +125,7 @@ for a country, this is also something we'd like to implement on IHR website
 - https://www.iijlab.net/en/members/romain/pdf/romain_pam2018.pdf
 - https://github.com/InternetHealthReport/country-as-hegemony-viz
 
-**Project size:** 175 hours to 350 hours
+**Project size:** 175 hours or 350 hours
 
 **Difficulty:** Medium
 
@@ -155,6 +155,10 @@ having our own would be great so we can integrate it with other tools (e.g. IYP,
 - https://github.com/InternetHealthReport/ihr-website
 - https://atlas.ripe.net/
 - https://labs.ripe.net/author/massimo_candela/tracemon-network-debugging-made-easy/
+
+**Project size:** 175 hours or 350 hours
+
+**Difficulty:** Medium to Hard
 
 **Contact:** Romain Fontugne (romain@iij.ad.jp), Malte Tashiro (malte@iij.ad.jp)
 
@@ -200,6 +204,8 @@ If appropriate, screenshot or another image
 - https://github.com/InternetHealthReport/
 
 **Project size:** 175 hours or 350 hours 
+
+**Difficulty:** Easy / Medium / Hard
 
 **Contact:**  (your name and email address for contact)
 
