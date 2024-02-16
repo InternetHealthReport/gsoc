@@ -116,7 +116,7 @@ for a country, this is also something we'd like to implement on IHR website
 - Integrate this component in IHR network report
 - (optional) Create similar views for a country or a single prefix
 
-**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/
+**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/36
 
 **Knowledge Prerequisite:** Basics of BGP, Javascript, VueJS, and visualization library (i.e. Plotly or D3.js)
 
