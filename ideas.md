@@ -139,7 +139,7 @@ latency increases in upstream networks. We have a lot of traceroute data from
 RIPE Atlas but we miss a good visualization to show traceroute details.
 The goal of this project is to design and implement a page on IHR to visualize
 traceroute results from RIPE Atlas.
-There is some good tools to get inspired from ([tracemon](https://labs.ripe.net/author/massimo_candela/tracemon-network-debugging-made-easy/) and [thousands eyes path visualization](https://www.youtube.com/watch?v=H2qJhrNVEi0),
+There is some good tools to get inspired from ([tracemon](https://labs.ripe.net/author/massimo_candela/tracemon-network-debugging-made-easy/) and [thousand eyes path visualization](https://docs.thousandeyes.com/product-documentation/internet-and-wan-monitoring/viewing-data/getting-started-with-path-visualization),
 having our own would be great so we can integrate it with other tools (e.g. IYP, AS Hegemony).
 
 **Expected results:**
