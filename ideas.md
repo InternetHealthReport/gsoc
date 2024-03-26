@@ -59,7 +59,7 @@ We also would like to show line charts to reflect the changes over time.
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp), Emile Aben (emile.aben@ripe.net), Dimitrios Giakatos
+**Contact:** Romain Fontugne (romain@iij.ad.jp), Emile Aben (emile.aben@ripe.net), Dimitrios Giakatos (dimitrios@iij.ad.jp)
 
 -----------------------------------
 ### IYP automatic deployment
@@ -129,7 +129,7 @@ for a country, this is also something we'd like to implement on IHR website
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp), Malte Tashiro (malte@iij.ad.jp), Dimitrios Giakatos
+**Contact:** Romain Fontugne (romain@iij.ad.jp), Malte Tashiro (malte@iij.ad.jp), Dimitrios Giakatos (dimitrios@iij.ad.jp)
 
 -----------------------------------
 ### Traceroute visualization
