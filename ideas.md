@@ -47,7 +47,6 @@ The Neo4J browser will continue to return the default four output formats, and w
 **Resources:**
 - https://github.com/InternetHealthReport/internet-yellow-pages
 - http://iyp.iijlab.net/
-- https://github.com/yWorks/yfiles-jupyter-graphs-for-neo4j
 
 **Project size:** TBD 
 
