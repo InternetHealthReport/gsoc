@@ -66,14 +66,14 @@ In other words, it measures the time it takes for a signal or packet to travel f
 ## 3.1. The Problems we solve
 
 Understanding and monitoring Internet topology is crucial to troubleshoot connectivity issues, improve resiliency, and understand the evolution of the Internet. There are measurement platforms (e.g RIPE Atlas) that can help in these regards, but they mostly provide raw data that need to be processed to get real insights, and this is not an easy task because the volume and velocity of these datasets are quite daunting.
-The Internet Health Report (IHR) aims to fill this gap by providing an analytics platform for Internet infrastructure data. At its core, IHR ingests mainly BGP and traceroute data and computes network metrics such as AS Hegemony and RTTs. These are then presented in the form of interactive reports on the [IHR website](https://ihr.iijlab.net). There are currently three types of reports, the [global report](https://ihr.iijlab.net/ihr/en-us/global_report) contains recent anomalies identified across all networks, and [country](https://ihr.iijlab.net/ihr/en-us/countries) and [network](https://ihr.iijlab.net/ihr/en-us/networks/) display all computed metrics for a certain country or AS.
+The Internet Health Report (IHR) aims to fill this gap by providing an analytics platform for Internet infrastructure data. At its core, IHR ingests mainly BGP and traceroute data and computes network metrics such as AS Hegemony and RTTs. These are then presented in the form of interactive reports on the [IHR website](https://www.ihr.live/en). There are currently three types of reports, the [global report](https://www.ihr.live/en/global-report) contains recent anomalies identified across all networks, and [country](https://www.ihr.live/en/country) and [network](https://www.ihr.live/en/network) display all computed metrics for a certain country or AS.
 
 ## 3.2. Our Vision
 We envision IHR as an observatory for Internet topology. It helps us to understand how each part of the world is connected to the Internet and how this changes over time. IHR aims to be the OpenStreetMap for the Internet. Our plan is to integrate more open datasets in IHR and make IHR accessible to a broader audience with simpler visualization tools.
 
 ## 3.3. The Projects of IHR
 Here we give a brief overview of the different projects that are under the umbrella of IHR. All these projects are entirely open source and available on github:[https://github.com/InternetHealthReport/](https://github.com/InternetHealthReport/) 
-Also the data produced by IHR is publicly available via the API ([https://ihr.iijlab.net/ihr/en-us/api](https://ihr.iijlab.net/ihr/en-us/api) and IHR’s archive website ([https://ihr-archive.iijlab.net/](https://ihr-archive.iijlab.net/)). 
+Also the data produced by IHR is publicly available via the API ([https://www.ihr.live/en/api](https://www.ihr.live/en/api)) and IHR’s archive website ([https://archive.ihr.live/](https://archive.ihr.live/)). 
 
 ## Overview of the main projects
 ![](imgs/ihr-diagram.png)
@@ -130,7 +130,7 @@ This is the code of the IHR API, it makes the link between the IHR database and 
 ### ihr-website
 https://github.com/InternetHealthReport/ihr-website
 
-This is the code for IHR’s main website: https://ihr.iijlab.net. The main goal of the IHR website is to expose the data processed by IHR analysis modules and make this data easily accessible to a larger audience.
+This is the code for IHR’s main website: https://www.ihr.live. The main goal of the IHR website is to expose the data processed by IHR analysis modules and make this data easily accessible to a larger audience.
 
 ### internet-yellow-pages
 https://github.com/InternetHealthReport/internet-yellow-pages
