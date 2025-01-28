@@ -4,7 +4,7 @@
 
 # **1. Why this handbook?**
 The goal of this handbook is to give a very brief overview of the Internet Health
-Report project and guidelines to contribute to this open-source organisation.  
+Report project and guidelines to contribute to this open-source organization.  
 
 # **2. How does the Internet work?**
 Browsing the IHR website, and consequently contributing to IHR, requires basic networking knowledge. 
@@ -24,10 +24,10 @@ Her request to Github takes a much shorter path, as it goes only through the Air
 
 This simple example illustrates two key concepts: 
 1) A company (e.g. Airtel) may operate multiple networks. Because the term network is quite vague, experts call these **Autonomous Systems (AS)**. An AS is a collection of routers that are operated by a single organization and is identified by a unique number called an Autonomous System Number (ASN). Companies may operate different ASes to distinguish their different services. For example, AS45609 is used for Airtel’s mobile service and AS9498 for Airtel’s international connectivity.
-2) There is a shorter path from Alice to Bob that passes through Github. But the email is not taking this path, most likely because Github’s network is designed mainly for traffic to/from Github servers. The path has been discovered using a protocol to find the best routes between two places on the Internet, the **Border Gateway Protocol (BGP).** BGP is a set of rules that helps these autonomous systems communicate with each other and share information about how to reach different parts of the internet. It's kind of like a big map that tells each autonomous system where to send its data to reach its final destination. BGP allows routers to dynamically adjust their routing decisions in response to changes in the network topology, such as the addition or removal of an AS or link between ASes.
+2) There is a shorter path from Alice to Bob that passes through GitHub. But the email is not taking this path, most likely because GitHub’s network is designed mainly for traffic to/from GitHub servers. The path has been discovered using a protocol to find the best routes between two places on the Internet, the **Border Gateway Protocol (BGP).** BGP is a set of rules that helps these autonomous systems communicate with each other and share information about how to reach different parts of the internet. It's kind of like a big map that tells each autonomous system where to send its data to reach its final destination. BGP allows routers to dynamically adjust their routing decisions in response to changes in the network topology, such as the addition or removal of an AS or link between ASes.
 
 
-The above example is very simple compared to the real lnternet which is composed of over 70 thousands ASes and is always evolving. But the principles are the same,  every AS connected to the Internet has to cooperate with other ASes to connect online users and services. That also means that the connectivity and reachability of an AS depend on these other ASes that help it to reach the rest of the Internet.
+The above example is very simple compared to the real Internet which is composed of over 70 thousands ASes and is always evolving. But the principles are the same, every AS connected to the Internet has to cooperate with other ASes to connect online users and services. That also means that the connectivity and reachability of an AS depend on these other ASes that help it to reach the rest of the Internet.
 
 ## 2.2 Terminology
 ### Autonomous System (AS and ASN)
@@ -36,7 +36,7 @@ ASes are responsible for routing traffic within their own network and between th
 ASes can be divided into two types: transit ASes and stub ASes. Transit ASes are those that allow traffic to pass through them to reach other networks, while stub ASes only route traffic within their own network.
 
 ### AS Hegemony
-AS Hegemony is a metric that measures the ASes inter-dependency. As explained in 2.1, an AS may rely on other ASes to reach the rest of the Internet. For example, Airtel mobile (AS45609) sends and receives international traffic only via Airtel’s international network (AS9498), hence its dependency (or AS Hegemony value) to AS9498 is very high. Connectivity issues at AS9498 are likely to impact the connectivity of AS45609.
+AS Hegemony is a metric that measures the ASes interdependency. As explained in 2.1, an AS may rely on other ASes to reach the rest of the Internet. For example, Airtel mobile (AS45609) sends and receives international traffic only via Airtel’s international network (AS9498), hence its dependency (or AS Hegemony value) to AS9498 is very high. Connectivity issues at AS9498 are likely to impact the connectivity of AS45609.
 
 ### BGP
 BGP stands for Border Gateway Protocol. It is a routing protocol used by Internet Service Providers (ISPs) to exchange information about the paths that data packets should take to reach their destination on the internet.
@@ -65,7 +65,7 @@ In other words, it measures the time it takes for a signal or packet to travel f
 # **3. What is the Internet Health Report (IHR)?**
 ## 3.1. The Problems we solve
 
-Understanding and monitoring Internet topology is crucial to troubleshoot connectivity issues, improve resiliency, and understand the evolution of the Internet. There are measurement platforms (e.g RIPE Atlas) that can help in these regards, but they mostly provide raw data that need to be processed to get real insights, and this is not an easy task because the volume and velocity of these datasets are quite daunting.
+Understanding and monitoring Internet topology is crucial to troubleshoot connectivity issues, improve resiliency, and understand the evolution of the Internet. There are measurement platforms (e.g. RIPE Atlas) that can help in these regards, but they mostly provide raw data that need to be processed to get real insights, and this is not an easy task because the volume and velocity of these datasets are quite daunting.
 The Internet Health Report (IHR) aims to fill this gap by providing an analytics platform for Internet infrastructure data. At its core, IHR ingests mainly BGP and traceroute data and computes network metrics such as AS Hegemony and RTTs. These are then presented in the form of interactive reports on the [IHR website](https://www.ihr.live/en). There are currently three types of reports, the [global report](https://www.ihr.live/en/global-report) contains recent anomalies identified across all networks, and [country](https://www.ihr.live/en/country) and [network](https://www.ihr.live/en/network) display all computed metrics for a certain country or AS.
 
 ## 3.2. Our Vision
