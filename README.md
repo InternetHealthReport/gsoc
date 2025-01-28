@@ -33,4 +33,4 @@ Please read the mentor instructions and add your project in the list of ideas:
 ## Tips for Proposal 🚀 
 Writing the proposal is difficult. Understanding what to write, how much to include and what to exclude is a difficult decision. We have curated a template which we highly **encourage** you to follow, since it will be easier for you to write and for us to review. Use this **[template](https://docs.google.com/document/d/1QSLQp7SLrREZ78lMCiMDv6iaevH-FqkCg1u2OpVDU3Q/edit?usp=sharing)**.
 
-Make sure to create a copy of the template. Rename your file name with your name and keyword from your project idea. For example: aniket_pal_dockerize_all. To view some selected proposals from previous year, checkout `proposals` directory.
+Make sure to create a copy of the template. Rename your file name with your name and keyword from your project idea. For example: aniket_pal_dockerize_all. To view some selected proposals from previous years, check out the `proposals` directory.
