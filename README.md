@@ -7,13 +7,15 @@ To get started with IHR please read:
 
 Then, please read GSoC intructions:
 - [GSoC FAQ](https://developers.google.com/open-source/gsoc/faq) 
-- [Google's instructions for participating](https://summerofcode.withgoogle.com/). 
+- [Google's instructions for participating](https://google.github.io/gsocguides/student/). 
 - [IHR Instructions for contributors](contributor-guidance.md)
 
 A list of potential projects is available at:
 - [List of ideas for projects](ideas.md)
 
 All participants will need a Google account in order to join the program. So, save time and create one now. 
+
+Once the application period opens ([March 24 to April 8](https://developers.google.com/open-source/gsoc/timeline)), participants can apply to the program through the [official website](https://summerofcode.withgoogle.com/).
 
 ## Mentors
 Experienced researchers and developers that are involved in IHR can mentor GSoC contributors.
