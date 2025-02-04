@@ -33,9 +33,18 @@ at admin@ihr.live.
 ### IHR Status Page
 
 **Brief explanation:** Things breaks easily, so we need a status page that tells
-us which service are running as usual and which one are not. This page could
+us which services are running as usual and which one are not. This page could
 also provide a machine-readable JSON object so that we can automate email alerts
-when something is not running as usual.
+when something is not running as usual. It would also be nice to keep historical
+availability data.
+
+We provide datasets in different formats (e.g., RUST API, files on an FTP
+server), which need to be monitored. Thus, there can be different liveness
+checks, e.g., that an API responds (and also gives results), that a file exists,
+etc.
+
+The project should use, or build on top of, an existing monitoring solution,
+should be maintainable, and extendable if we add new datasets in the future.
 
 **Expected results:**
 - Find a suitable monitoring tool that can be used as a base for this project
@@ -47,12 +56,17 @@ when something is not running as usual.
 **Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/51
 
 **Knowledge Prerequisite:**
-- Overview of the IHR ecosystem
+- Overview of the IHR ecosystem, see Resources below
 - Docker
-- Some web development experience
+- Web development experience
 
 **Resources:**
 - https://github.com/InternetHealthReport/
+- [IHR API](https://www.ihr.live/en/api)
+- [IHR Archive](https://archive.ihr.live/)
+- [IYP website](https://iyp.iijlab.net/)
+- [IYP
+  database](https://iyp.iijlab.net/iyp/browser/?dbms=iyp-bolt.iijlab.net:443)
 
 **Project size:** 90 hours
 
