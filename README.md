@@ -11,7 +11,7 @@ Then, please read GSoC intructions:
 - [IHR Instructions for contributors](contributor-guidance.md)
 
 A list of potential projects is available at:
-- TBA
+- [List of ideas for projects](ideas.md)
 
 All participants will need a Google account in order to join the program. So, save time and create one now. 
 
