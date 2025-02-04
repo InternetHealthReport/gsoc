@@ -204,16 +204,18 @@ having our own would be great so we can integrate it with other tools (e.g. IYP,
 - Display the results in intuitive graphs, showing the IP paths and corresponding RTT values
 - Integrate with IYP data
 
-**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/21
+**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/59
 
 **Knowledge Prerequisite:**
+- Be familiar with [existing traceroute code](https://github.com/InternetHealthReport/ihr-website/blob/master/src/views/TracerouteVisualizationTool.vue)
 - Good understanding of traceroute
 - Javascript
 - VueJS
 - Visualization library (i.e. Plotly or D3.js)
 
 **Resources:**
-- https://github.com/InternetHealthReport/ihr-website
+- https://www.ihr.live/en/traceroute-monitor
+- https://github.com/InternetHealthReport/ihr-website/blob/master/src/views/TracerouteVisualizationTool.vue
 - https://atlas.ripe.net/
 - https://labs.ripe.net/author/massimo_candela/tracemon-network-debugging-made-easy/
 
