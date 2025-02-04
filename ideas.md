@@ -116,16 +116,26 @@ the database, which will result in better maintenance.
 -----------------------------------
 ### Improve the IHR Website Codebase
 
-**Brief explanation:**
+**Brief explanation:** The IHR website provides outputs from IHR research projects 
+through a simple and user-friendly web interface. Its current codebase is large 
+and contains many features. This time, instead of adding new features, we will 
+focus on improving the existing ones. The goal of this project is to refactor 
+certain components to enhance reusability.
 
 **Expected results:**
+- Refactor the codebase
+- Improve reusability
 
 **Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/47
 
 **Knowledge Prerequisite:**
+- VueJS
+- JavaScript
+- CSS
+- HTML
 
 **Resources:**
-- https://github.com/InternetHealthReport/
+- https://github.com/InternetHealthReport/ihr-website
 
 **Project size:** 175 hours
 
