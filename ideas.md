@@ -78,16 +78,34 @@ should be maintainable, and extendable if we add new datasets in the future.
 -----------------------------------
 ### Migrate IHR API
 
-**Brief explanation:**
+**Brief explanation:** All results displayed on the Internet Health Report website 
+are accessible via the IHR REST API. The current codebase is developed on an outdated 
+version of [Django (2.2.27)](https://docs.djangoproject.com/en/2.2/), which is no 
+longer supported, and we are not utilizing all of Django's features. Therefore, 
+instead of just upgrading the Django version, we plan to migrate the codebase 
+from the complex Django framework to a simpler framework, such as [FastAPI](https://fastapi.tiangolo.com/). 
+Additionally, the current Django framework includes code for initializing/managing 
+the database. This time, we want to implement Bash scripts for initializing/managing 
+the database, which will result in better maintenance.
 
 **Expected results:**
+- Migrate all Django endpoints to FastAPI
+- Convert the database code from Django to Bash scripts
+- Dockerize the application (excluding the Bash scripts, which will be run as is)
 
-**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/
+**Github discussion:** https://github.com/orgs/InternetHealthReport/discussions/58
 
 **Knowledge Prerequisite:**
+- Django (to understand the current codebase)
+- FastAPI
+- SQL
+- Docker
 
 **Resources:**
-- https://github.com/InternetHealthReport/
+- https://github.com/InternetHealthReport/ihr-django
+- https://docs.djangoproject.com/en/2.2/
+- https://fastapi.tiangolo.com/
+- https://learnscripting.org/streamlining-database-operations-running-sql-queries-from-a-shell-script/
 
 **Project size:** 175 hours
 
