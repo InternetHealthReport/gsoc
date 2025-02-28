@@ -193,7 +193,7 @@ As you could guess most of the interaction for contributing to IHR happens on ou
 https://github.com/InternetHealthReport/
 
 You can also find us on slack:
-https://join.slack.com/t/internethealthreport/shared_invite/zt-19d4e48py-~oirVwkINe01gTVEF3o4Kw
+https://join.slack.com/t/internethealthreport/shared_invite/zt-30v0csvok-4vOSUyIkkAlM1grwT3ClYA
 
 Or just get in touch with us by email: **admin@ihr.live**
 
