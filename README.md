@@ -1,5 +1,8 @@
 # IHR / Google Summer of Code (GSoC)
 
+#### Notice
+**We discourage the use of AI tools in communications and contributions.** The goal of GSoC is for you to learn and improve your skills, not just to finish your project at any cost. However, if you do use any AI or LLMs, you must disclose their use in your PRs and/or conversations with your mentor. Additionally, you must fully understand and be able to explain any AI-generated code you submit. **Any undisclosed use of AI** or Large Language Models, or inability to explain AI-generated contributions, **will be grounds for instant disqualification**.
+
 ## Contributors (student/developers)
 All students and developers are welcome to participate in the Summer of Code program with IHR. 
 To get started with IHR please read:
