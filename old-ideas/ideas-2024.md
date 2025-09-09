@@ -19,7 +19,7 @@ Do you have an awesome idea you want to work on for IHR but that is not among th
 That's cool. We love that! 
 Please get in touch with a mentor early on and make sure your project is realistic and within the scope of IHR.
 
-If there is no specific contact given you can ask questions on github, slack, or at admin@ihr.live.
+If there is no specific contact given you can ask questions on github, slack, or at gsoc@ihr.live.
 
 ## List of ideas
 
@@ -59,7 +59,9 @@ We also would like to show line charts to reflect the changes over time.
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp), Emile Aben (emile.aben@ripe.net), Dimitrios Giakatos (dimitrios@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>, Emile Aben<sup>2</sup>, Dimitrios Giakatos<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live, <sup>2</sup> emile.aben@ripe.net
 
 -----------------------------------
 ### IYP automatic deployment
@@ -90,7 +92,9 @@ past month.
 
 **Difficulty:** Easy/Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp), Malte Tashiro (malte@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>, Malte Tashiro<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 -----------------------------------
 ### Network topology overview
@@ -129,7 +133,9 @@ for a country, this is also something we'd like to implement on IHR website
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp), Malte Tashiro (malte@iij.ad.jp), Dimitrios Giakatos (dimitrios@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>, Malte Tashiro<sup>1</sup>, Dimitrios Giakatos<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 -----------------------------------
 ### Traceroute visualization
@@ -160,7 +166,9 @@ having our own would be great so we can integrate it with other tools (e.g. IYP,
 
 **Difficulty:** Medium to Hard
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp), Malte Tashiro (malte@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>, Malte Tashiro<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 -----------------------------------
 ### Dockerize all IHR components (continuation of GSoC'23)
@@ -182,7 +190,9 @@ that each component can be easily move on our servers.
 **Resources:**
 - https://github.com/InternetHealthReport/
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp), Anant Shah (ashah@edg.io)
+**Mentors:** Romain Fontugne<sup>1</sup>, Anant Shah<sup>2</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live, <sup>2</sup> ashah@edg.io
 
 
 -----------------------------------

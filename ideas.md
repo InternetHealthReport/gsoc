@@ -25,7 +25,7 @@ Please get in touch with a mentor early on and make sure your project is
 realistic and within the scope of IHR.
 
 If there is no specific contact given you can ask questions on github, slack, or
-at admin@ihr.live.
+at gsoc@ihr.live.
 
 ## List of ideas
 

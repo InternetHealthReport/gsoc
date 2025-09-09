@@ -16,7 +16,7 @@ Do you have an awesome idea you want to work on with IHR but that is not among t
 That's cool. We love that! 
 But please get in touch with a mentor early on and make sure your project is realistic and within the scope of IHR.
 
-If there is no specific contact given you can ask questions at admin@ihr.live.
+If there is no specific contact given you can ask questions at gsoc@ihr.live.
 
 ## List of ideas
 
@@ -43,7 +43,9 @@ the impact of events observed on IHR to traffic changes to popular Internet serv
 
 **Difficulty:** Easy/Medium
 
-**Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Anant Shah<sup>1</sup>, Romain Fontugne<sup>2</sup>
+
+**Contact:** <sup>1</sup> anant.shah@edgecast.com, <sup>2</sup> gsoc@ihr.live
 
 -----------------------------------
 ### Network dependency visualization
@@ -74,7 +76,9 @@ for a country, this is also something we'd like to implement on IHR website
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 
 -----------------------------------
@@ -109,7 +113,9 @@ multi-dimensional reports.
 
 **Difficulty:** Medium / Hard
 
-**Contact:** Emile Aben (emile.aben@ripe.net), Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Emile Aben<sup>1</sup>, Romain Fontugne<sup>2</sup>
+
+**Contact:** <sup>1</sup> emile.aben@ripe.net, <sup>2</sup> gsoc@ihr.live
 
 
 -----------------------------------
@@ -140,7 +146,9 @@ options to communicate with the users (email, slack, discord, etc...).
 
 **Difficulty:** Easy/Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 -----------------------------------
 ### Search page for the Internet Yellow Pages
@@ -168,7 +176,9 @@ name, country, IXP.
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
+**Mentors:** Romain Fontugne<sup>1</sup>, Emile Aben<sup>2</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live, <sup>2</sup> emile.aben@ripe.net
 
 -----------------------------------
 ### IHR exploratory dashboard (continuation of GSoC'22)
@@ -205,7 +215,9 @@ but it needs UI and features improvements to be integrated to IHR website.
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 -----------------------------------
 ### Dockerize all IHR components
@@ -227,7 +239,9 @@ that each component can be easily move on our servers.
 **Resources:**
 - https://github.com/InternetHealthReport/
 
-**Contact:**  romain@iij.ad.jp
+**Mentors:** Romain Fontugne<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 
 -----------------------------------

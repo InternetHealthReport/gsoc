@@ -16,7 +16,7 @@ Do you have an awesome idea you want to work on with IHR but that is not among t
 That's cool. We love that! 
 But please get in touch with a mentor early on and make sure your project is realistic and within the scope of IHR.
 
-If there is no specific contact given you can ask questions at ihr-admin@iij-ii.co.jp.
+If there is no specific contact given you can ask questions at gsoc@ihr.live.
 
 ## List of ideas
 
@@ -47,7 +47,9 @@ of their data.
 
 **Difficulty:** Easy/Medium
 
-**Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Anant Shah<sup>1</sup>, Romain Fontugne<sup>2</sup>
+
+**Contact:** <sup>1</sup> anant.shah@edgecast.com, <sup>2</sup> gsoc@ihr.live
 
 -----------------------------------
 ### Integration of transparency reports
@@ -75,7 +77,9 @@ traffic changes to popular Internet services.
 
 **Difficulty:** Medium
 
-**Contact:** Anant Shah (anant.shah@edgecast.com), Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Anant Shah<sup>1</sup>, Romain Fontugne<sup>2</sup>
+
+**Contact:** <sup>1</sup> anant.shah@edgecast.com, <sup>2</sup> gsoc@ihr.live
 
 -----------------------------------
 ### Network dependency visualization
@@ -107,7 +111,9 @@ for a country, this is also something we'd like to implement on IHR website
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 
 -----------------------------------
@@ -142,7 +148,9 @@ multi-dimensional reports.
 
 **Difficulty:** Medium / Hard
 
-**Contact:** Emile Aben (emile.aben@ripe.net), Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Emile Aben<sup>1</sup>, Romain Fontugne<sup>2</sup>
+
+**Contact:** <sup>1</sup> emile.aben@ripe.net, <sup>2</sup> gsoc@ihr.live
 
 
 -----------------------------------
@@ -173,7 +181,9 @@ or documenting networking events.
 
 **Difficulty:** Medium
 
-**Contact:** Emile Aben (emile.aben@ripe.net) 
+**Mentors:** Emile Aben<sup>1</sup>
+
+**Contact:** <sup>1</sup> emile.aben@ripe.net
 
 
 -----------------------------------
@@ -200,7 +210,9 @@ happen.
 
 **Difficulty:** Easy/Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 -----------------------------------
 ### Integration of Internet Yellow Pages data
@@ -227,7 +239,9 @@ countries monitored by IHR.
 
 **Difficulty:** Easy/Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
+**Mentors:** Romain Fontugne<sup>1</sup>, Emile Aben<sup>2</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live, <sup>2</sup> emile.aben@ripe.net
 
 -----------------------------------
 ### Lightweight NDT speed test
@@ -253,7 +267,9 @@ to perform lightweight speed test using, for example, the technique proposed in 
 
 **Difficulty:** Medium/Hard
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp),  Emile Aben (emile.aben@ripe.net) 
+**Mentors:** Romain Fontugne<sup>1</sup>, Emile Aben<sup>2</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live, <sup>2</sup> emile.aben@ripe.net
 
 -----------------------------------
 ### Port link monitoring code to python3 and Kafka
@@ -278,7 +294,9 @@ paper: https://www.iijlab.net/en/members/romain/pdf/romain_imc2017.pdf
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 -----------------------------------
 ### IHR exploratory dashboard
@@ -311,7 +329,9 @@ important networks from a selected country, or global statistics about plotted d
 
 **Difficulty:** Medium
 
-**Contact:** Romain Fontugne (romain@iij.ad.jp)
+**Mentors:** Romain Fontugne<sup>1</sup>
+
+**Contact:** <sup>1</sup> gsoc@ihr.live
 
 -----------------------------------
 
