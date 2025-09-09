@@ -76,7 +76,7 @@ Here we give a brief overview of the different projects that are under the umbre
 Also the data produced by IHR is publicly available via the API ([https://www.ihr.live/en/api](https://www.ihr.live/en/api)) and IHR’s archive website ([https://archive.ihr.live/](https://archive.ihr.live/)). 
 
 ## Overview of the main projects
-![](imgs/ihr-diagram.png)
+<img src='https://raw.githubusercontent.com/InternetHealthReport/system-design/refs/heads/main/IHR_overall_diagram.svg'/>
 
 IHR’s analytics platform is designed around a Kafka cluster that:
 - Ingests raw data (e.g. traceroute, BGP data) from measurement platforms (e.g. RIPE Atlas, RIS, Routeviews).
@@ -120,10 +120,10 @@ This code computes AS Hegemony for all ASes in the same country. This is one of 
 ### psql-dump
 https://github.com/InternetHealthReport/psql-dump
 
-This is a simple script that dumps data from the IHR database to the csv files. This is used to create the files available at https://ihr-archive.iijlab.net/.
+This is a simple script that dumps data from the IHR database to the csv files. This is used to create the files available at https://archive.ihr.live/.
 
-### ihr-django
-https://github.com/InternetHealthReport/ihr-django
+### ihr-api
+https://github.com/InternetHealthReport/ihr-api
 
 This is the code of the IHR API, it makes the link between the IHR database and the IHR website. 
 
@@ -135,7 +135,7 @@ This is the code for IHR’s main website: https://www.ihr.live. The main goal o
 ### internet-yellow-pages
 https://github.com/InternetHealthReport/internet-yellow-pages
 
-The Internet Yellow Pages (IYP) aims to fetch and organize the vast amount of public Internet topology data available online and organize these datasets in a knowledge database (powered by Neo4j). This project is not yet integrated with the rest of the IHR platform but it will be in the near future.
+The Internet Yellow Pages (IYP) aims to fetch and organize the vast amount of public Internet topology data available online and organize these datasets in a knowledge database (powered by Neo4j).
 
 # **4. Contributing to IHR**
 
@@ -154,7 +154,7 @@ There are numerous ways to contribute to IHR:
 
 ## 4.2. (no) Prerequisites
 
-Anyone can contribute. Of course it depends on your skills, but remember there is no small contribution. A bug report, documentation improvement, a feature request are all valuable contributions. If you want to dive into the IHR code base, we are mostly using  JavaScript (Vue.js)  for the frontend and Python for the backend. 
+Anyone can contribute. Of course, it depends on your skills, but remember there is no small contribution. A bug report, documentation improvement, a feature request are all valuable contributions. If you want to dive into the IHR code base, we are mostly using JavaScript (Vue.js) for the frontend and Python for the backend. 
 
 ## 4.3 How to contribute?
 
@@ -173,7 +173,7 @@ For creating an issue. Head over to the issues tab in any repository where you p
 Follow the issue template while creating the issue.
 
 In case, you want to contribute but have no issue in mind. Solve the existing issues! Some of our issues are tagged for beginners. You can find them with the following search terms:
-*is:issue is:open label:beginner-friendly*  or *is:issue is:open label:"good first issue"* 
+*is:issue is:open label:beginner-friendly* or *is:issue is:open label:"good first issue"* 
 
 While contributing please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the **"fork-and-pull"** Git workflow:
 - Fork the repository on GitHub
