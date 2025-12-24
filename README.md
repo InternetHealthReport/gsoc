@@ -18,7 +18,7 @@ A list of potential projects is available at:
 
 All participants will need a Google account in order to join the program. So, save time and create one now. 
 
-Once the application period opens ([March 24 to April 8](https://developers.google.com/open-source/gsoc/timeline)), participants can apply to the program through the [official website](https://summerofcode.withgoogle.com/).
+Once the application period opens ([March 16 to March 31](https://developers.google.com/open-source/gsoc/timeline)), participants can apply to the program through the [official website](https://summerofcode.withgoogle.com/).
 
 ## Mentors
 Experienced researchers and developers that are involved in IHR can mentor GSoC contributors.
