@@ -1,6 +1,21 @@
 
 <h1 align='center'> The Internet Health Report: Handbook for Contributors  </h1>
 
+> [!Note]
+> **Who's helping who?**
+>
+> IHR is an open source project, our maintainers are volunteers and busy with their daily job and life. We hope new contributors would provide more help than burden.
+> Please:
+> - Don't ask us to create new issues for you.
+> - Don't only ask 'assign this issue to me', instead share a detailed plan to fix the issue.
+> - Don't blindly ask an AI to solve an issue or reply to messages. Also, make sure you understand every line of code you write.
+> - Don't ask 'Why wasn't I assigned the issue XYZ?', we mainly process in first-come first-served manner.
+> - Don't ping IHR maintainers evertime you make an action (e.g. issue, PR, slack message, github comment...).
+> - Don't solve issues for getting in GSoC, we select candidates based on their proposals.
+>
+> **We may ignore your messages if you don't comply with the above rules and [IHR code of conduct](https://github.com/InternetHealthReport/.github/blob/main/CODE_OF_CONDUCT.md).**
+
+
 
 # **1. Why this handbook?**
 The goal of this handbook is to give a very brief overview of the Internet Health
@@ -169,7 +184,9 @@ For creating an issue. Head over to the issues tab in any repository where you p
 
 Follow the issue template while creating the issue.
 
-In case, you want to contribute but have no issue in mind. Solve the existing issues! Some of our issues are tagged for beginners. You can find them with the following search terms:
+For feature requests, we expect only requests for functional features that would benefits IHR users (not cosmetic modifications, such as minor changes to the website layout).
+
+In case, you want to contribute but have no issue in mind, **don't make up irrelevant issues**, solve the existing issues! Some of our issues are tagged for beginners. You can find them with the following search terms:
 *is:issue is:open label:beginner-friendly* or *is:issue is:open label:"good first issue"* 
 
 While contributing please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the **"fork-and-pull"** Git workflow:
