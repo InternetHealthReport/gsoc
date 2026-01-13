@@ -184,7 +184,7 @@ For creating an issue. Head over to the issues tab in any repository where you p
 
 Follow the issue template while creating the issue.
 
-For feature requests, we expect only requests for functional features that would benefits IHR users (not cosmetic modifications, such as minor changes to the website layout).
+For feature requests, we expect only requests for functional features that would benefits IHR users (not cosmetic modifications, such as minor changes to the website layout or trying to fix some imaginary problems not related to IHR users).
 
 In case, you want to contribute but have no issue in mind, **don't make up irrelevant issues**, solve the existing issues! Some of our issues are tagged for beginners. You can find them with the following search terms:
 *is:issue is:open label:beginner-friendly* or *is:issue is:open label:"good first issue"* 
