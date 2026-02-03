@@ -29,4 +29,4 @@ at gsoc@ihr.live.
 
 ## List of ideas
 
-**Specifics (topic/mentors/scope) will be decided in 2026**
+**IHR won’t be taking part in GSoC 2026.**
