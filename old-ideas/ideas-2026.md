@@ -29,4 +29,4 @@ at gsoc@ihr.live.
 
 ## List of ideas
 
-**IHR won’t be taking part in GSoC 2027.**
+**IHR won’t be taking part in GSoC 2026.**
